@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between pt-12">
+    <div class="flex justify-between pt-12 px-3">
         <div class="w-5/12 ml-3 md:ml-0 bg-gray-100 rounded-xl p-3 md:px-8 md:py-6 group hover:bg-blue-50 transition duration-500">
             <NuxtLink v-if="prev" :to="{ name: 'slug', params: { slug: prev.slug } }">
                 <div class="text-center md:text-left text-gray-500 group-hover:text-blue-400 transition duration-500">Previous Post</div>

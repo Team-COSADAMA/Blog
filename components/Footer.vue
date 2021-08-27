@@ -1,58 +1,42 @@
 <template>
-    <footer class="w-full bg-gray-800 py-14 md:pt-20 md:pb-24 px-2 md:px-5">
-        <div class="max-w-5xl mx-auto md:flex relative items-start">
+    <footer class="w-full bg-gray-800 py-11 md:py-14 md:pt-20 md:pb-24 px-2 md:px-5">
+        
+        <div class="max-w-5xl mx-auto block md:flex relative">
 
-            <ul class="w-36 ml-11 md:m-0">
-                <li class="mb-3 font-medium text-gray-300">커뮤니티</li>
-                <li class="mb-1.5 font-normal text-gray-500 hover:underline">소개</li>
-                <li class="mb-1.5 font-normal text-gray-500 hover:underline">영입</li>
-                <li class="mb-1.5 font-normal text-gray-500 hover:underline">슬랙</li>
-                <li class="mb-1.5 font-normal text-gray-500 hover:underline">노션</li>
-            </ul>
+            <div class="justify-around md:justify-start px-8 md:px-0 items-start flex">
+                <ul class="w-25 md:w-36 md:ml-0 md:m-0">
+                    <li class="mb-3 font-medium text-gray-300">커뮤니티</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline">소개</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline">영입</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline">슬랙</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline">노션</li>
+                </ul>
 
-            <ul class="w-36 ml-11 mt-6 md:m-0">
-                <li class="mb-3 font-medium text-gray-300">관련 사이트</li>
-                <li class="mb-1.5 font-normal text-gray-500 hover:underline">홈페이지</li>
-                <li class="mb-1.5 font-normal text-gray-500 hover:underline">블로그</li>
-                <li class="mb-1.5 font-normal text-gray-500 hover:underline">깃헙</li>
-            </ul>
+                <ul class="w-25 md:w-36 md:ml-0 md:m-0">
+                    <li class="mb-3 font-medium text-gray-300">관련 사이트</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline">홈페이지</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline">블로그</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline">깃헙</li>
+                </ul>
 
-            <ul class="w-36 ml-11 mt-6 md:m-0">
-                <li class="mb-3 font-medium text-gray-300">문의</li>
-                <li class="mb-1.5 font-normal text-gray-500 hover:underline">이메일</li>
-                <li class="mb-1.5 font-normal text-gray-500 hover:underline">카카오톡 채널</li>
-            </ul>
+                <ul class="w-25 md:w-36 md:ml-0 md:m-0">
+                    <li class="mb-3 font-medium text-gray-300">문의</li>
+                    <li class="mb-1.5 font-normal text-gray-500 hover:underline">이메일</li>
+                    <li class="hidden md:block mb-1.5 font-normal text-gray-500 hover:underline">카카오톡 채널</li>
+                    <li class="md:hidden mb-1.5 font-normal text-gray-500 hover:underline">카카오톡</li>
+                </ul>
+            </div>
 
-            <a href="#" class="md:absolute md:top-0 md:right-0 block flex items-center ml-11 mt-6 md:m-0">
-                <div class="mr-6"><PbLogo/></div>
-                <div class="text-xl font-bold text-gray-500">Peniel Blog</div>
+            <a href="http://www.cosadama.com" target="blank" class="hidden md:block flex justify-center md:absolute md:top-0 md:right-0 md:items-center md:m-0">
+                <div class=""><FooterLogo/></div>
             </a>
 
-            <ul class="md:absolute md:bottom-0 md:right-0 block ml-11 mt-6 md:mx-0">
-                <li class="text-sm font-normal text-gray-500">© 2021 Peniel Cho, All Rights Reserved.</li>
+            <ul class="flex justify-center md:absolute md:bottom-0 md:right-0 md:block mt-10 md:mt-0">
+                <li class="text-xs md:text-sm font-normal text-gray-500">© 2021 COSADAMA, All Rights Reserved.</li>
             </ul>
-
-            <!-- <ul class="site-links float--left">
-                <li><a href="mailto:mail@penielcho.com">Email</a></li>
-                <li><nuxt-link to="/" class="li-alike">Blog</nuxt-link></li>
-                <li><a href="https://github.com/thepenielcho" target="blank">GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/peniel-cho/" target="blank">Linkedin</a></li>
-                <li><a href="https://twitter.com/ChoPeniel" target="blank">Twitter</a></li>
-                <li><a href="https://blog.naver.com/penielcho98" target="blank">Life</a></li>
-            </ul> -->
 
         </div>
 
-        <!-- <div class="max-w-5xl mx-auto items-center mt-10">
-            <a href="#" class="block flex items-center">
-                <div class="mr-6"><PbLogo/></div>
-                <div class="text-xl font-bold text-gray-500">Peniel Blog</div>
-            </a>
-
-            <ul class="block mt-8">
-                <li class="text-sm font-normal text-gray-500">© 2021 Peniel Cho, All Rights Reserved.</li>
-            </ul>
-        </div> -->
     </footer>
 </template>
 

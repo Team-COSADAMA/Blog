@@ -6,8 +6,14 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            a: {
-              
+            h1: {
+              color: '#374151',
+            },
+            h2: {
+              color: '#374151',
+            },
+            h3: {
+              color: '#374151',
             },
           }
         }
