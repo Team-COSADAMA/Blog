@@ -1,9 +1,9 @@
 <template>
     <div class="related max-w-3xl mx-auto py-10 md:py-16">
 
-        <h1 class="custom-text leading-snug md:leading-normal px-3 md:px-0 mb-2 text-3xl md:text-4xl text-center font-semibold text-gray-700">{{article.title}}</h1>
-        <p class="text-lg text-gray-500 text-center">{{article.datetime}} · by {{article.author}}</p>
-        <img :src="require(`~/assets/resources/${article.img}`)" alt="" class="my-5 md:rounded-2xl md:my-10" />
+        <h1 class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-2 text-2xl md:text-4xl text-center font-semibold text-gray-700">{{article.title}}</h1>
+        <p class="text-base md:text-lg text-gray-500 text-center">{{article.datetime}} · by {{article.author}}</p>
+        <img :src="require(`~/assets/resources/${article.img}`)" alt="" class="mt-6 mb-8 md:rounded-2xl md:my-10" />
         
         <nuxt-content :document="article" class="prose max-w-3xl custom-text px-6"/>
 
