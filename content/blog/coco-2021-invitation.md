@@ -26,10 +26,9 @@ COCO 2021은 코사다마 구성원들의 데이터 분석과 코딩 관련 발�
 - 문의: [카카오톡 채널](http://pf.kakao.com/_MYkvK?trk=public_post_share-update_update-text)
 
 
-![COCO 2021 포스터](/coco-2021-invitation/COCO_2021_Poster.png)
+![COCO 2021](/coco-2021-invitation/coco-2021-welcomeletter.png)
 
+## 타임테이블
 
-
-
-
-
+![Timetable part1](/coco-2021-invitation/coco-2021-part1.png)
+![Timetable part2](/coco-2021-invitation/coco-2021-part2.png)
