@@ -87,7 +87,7 @@ wd = webdriver.Chrome('chromedriver',options=options)
 
 창을 띄우고 실습을 하고 싶어서 구글링해봤지만 도저히 해결방법이 안 나왔다.
 
-결국 stackoverflow에 가입해 질문글을 올렸다. (고마워요, 파란 앵무새  :bird::blue_heart: ​ ) 
+결국 stackoverflow에 가입해 질문글을 올렸다.
 
 ![4.png](/selenium-for-colab/4.png)
 
