@@ -34,5 +34,8 @@ module.exports = {
       transitionDuration: ['hover', 'focus'],
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }
