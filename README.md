@@ -1,1 +1,1 @@
-# CSDM-BLOG
+# COSADAMA Blog
