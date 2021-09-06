@@ -22,7 +22,6 @@ author: 신윤진
 
 #### 1) 추천 사이트
 
----
 
 - [공공데이터 포털](https://www.data.go.kr/)
 - 열린데이터 광장
@@ -43,7 +42,6 @@ author: 신윤진
 
 #### 2) 기타 사이트
 
----
 
 - [공간정보 오픈플랫폼 포털](https://www.vworld.kr/v4po_main.do)
 - [관광지식정보시스템](https://know.tour.go.kr/)
@@ -66,7 +64,6 @@ author: 신윤진
 
 #### 1) pandas
 
----
 
 - [판다스 기본 사용법 익히기](https://dandyrilla.github.io/2017-08-12/pandas-10min/)
   - 10 Minutes to pandas 번역본
@@ -84,7 +81,6 @@ author: 신윤진
 
 #### 1) 시각화 관련 글
 
----
 
 - [[The Art of Data] 2회 이럴 땐 이런 그래프: 데이터에 맞는 시각화 방법](https://www.cognitumlab.com/single-post/2017/10/08/The-Art-of-Data-2%ED%9A%8C-%EC%9D%B4%EB%9F%B4-%EB%95%90-%EC%9D%B4%EB%9F%B0-%EA%B7%B8%EB%9E%98%ED%94%84-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%97%90-%EB%A7%9E%EB%8A%94-%EC%8B%9C%EA%B0%81%ED%99%94-%EB%B0%A9%EB%B2%95)
 
@@ -97,7 +93,6 @@ author: 신윤진
 
 #### 2) matplotlib 관련 정보
 
----
 
 - [matplotlib Tutorial](https://codetorial.net/matplotlib/index.html)
   - 한글 사이트. matplotlib의 기본적인 사용법을 쉽게 설명해 준다.
@@ -111,7 +106,6 @@ author: 신윤진
 
 #### 3) folium 관련 정보
 
----
 
 - [folium tiles](https://nbviewer.jupyter.org/github/python-visualization/folium/blob/master/examples/TilesExample.ipynb)
   - 더욱 다양한 Custom tiles을 적용하고 싶다면?
@@ -124,7 +118,6 @@ author: 신윤진
 
 #### 4) GeoJSON 관련 사이트
 
----
 
 - [국내 GeoJSON 파일](https://github.com/southkorea/southkorea-maps/tree/master/kostat)
 - [GeoJSON Maps of the globe](https://geojson-maps.ash.ms/)
@@ -138,7 +131,6 @@ author: 신윤진
 
 #### 5) 시각화 사이트
 
----
 
 - [Datawrapper](https://www.datawrapper.de/)
 - [Flourish](https://app.flourish.studio/login?redirect=true)
