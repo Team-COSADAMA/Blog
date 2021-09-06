@@ -1,7 +1,7 @@
 ---
 title: Folium choropleth에서 colorbar 인덱스 바꾸는 법
 description: Folium choropleth에서 colorbar의 인덱스(숫자)를 바꾸는 법을 알아보자.
-slug: Changing-colorbar-index-of-Folium-choropleth
+slug: changing-colorbar-index-of-folium-choropleth
 img: not-yet-generated.png
 datetime: 2021. 08. 31.
 category: Folium
@@ -22,9 +22,9 @@ author: 신윤진
 
 ---
 
-![qna](/Changing-colorbar-index-of-Folium-choropleth/01.png)
+![qna](/changing-colorbar-index-of-Folium-choropleth/01.png)
 
-![colorbar](/Changing-colorbar-index-of-Folium-choropleth/01_bar.png)
+![colorbar](/changing-colorbar-index-of-Folium-choropleth/01_bar.png)
 
 
 
@@ -56,7 +56,7 @@ stackoverflow의 글들을 아무리 읽어봐도 모르겠어서 팀원들에�
 
 
 
-![folium documentation](/Changing-colorbar-index-of-Folium-choropleth/02.png)
+![folium documentation](/changing-colorbar-index-of-Folium-choropleth/02.png)
 
 나는 분명 공식 문서를 봤을 텐데,
 
@@ -92,9 +92,9 @@ map
 
 
 
-![before](/Changing-colorbar-index-of-Folium-choropleth/03_b.png)
+![before](/changing-colorbar-index-of-Folium-choropleth/03_b.png)
 
-![after](/Changing-colorbar-index-of-Folium-choropleth/03_a.png)
+![after](/changing-colorbar-index-of-Folium-choropleth/03_a.png)
 
 - **주의할 점**
 

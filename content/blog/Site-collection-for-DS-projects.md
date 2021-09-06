@@ -1,7 +1,7 @@
 ---
 title: DS 프로젝트 관련 사이트 모음
 description: DS 프로젝트 진행에 도움이 되는 사이트를 모아봤습니다.
-slug: Site-collection-for-DS-projects
+slug: site-collection-for-ds-projects
 img: not-yet-generated.png
 datetime: 2021. 08. 31.
 category: Tip
