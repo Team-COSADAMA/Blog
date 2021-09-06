@@ -4,7 +4,7 @@ description: DS 프로젝트 진행에 도움이 되는 사이트를 모아봤�
 slug: site-collection-for-data-projects
 img: not-yet-generated.png
 datetime: 2021. 08. 31.
-category: Tip
+category: Tips
 author: 신윤진
 ---
 
