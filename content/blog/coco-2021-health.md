@@ -90,7 +90,7 @@ author: 나다경
 
 ### 2.2 분석 방향
 
-![분석과정](/coco-2021-health/분석과정.png)
+![분석과정](coco-2021-health/분석과정.png)
 
 분석과정은 그림과 같다. 앞서 제시했듯이 건강행동, 도시환경, 사회경제적 환경 세 파트에서 데이터를 수집했다. 이를 통해 전국 252개 시군구를 대상으로, 시점은 2019년으로 지정하여 분석을 시행했고, 결과적으로 가장 유의한 결정요인과 지역적 특성을 도출했다. 나아가 건강행동 격차를 축소하고 집단 수준에서의 건강을 증진할 수 있는 방안도 고민해보았다.
 
@@ -312,7 +312,7 @@ folium.Choropleth(geo_data = geo_str,
 map 
 ```
 
-![흡연율지도](/coco-2021-health/흡연율지도.png)
+![흡연율지도](coco-2021-health/흡연율지도.png)
 
 지도에 나타난 경향성을 보면, 현재 흡연율은 **경기, 충청, 경상** 일부 지역이 높지만 **세종, 서울과 전라권**은 비교적 낮은 걸 알 수 있다.
 
@@ -332,7 +332,7 @@ folium.Choropleth(geo_data = geo_str,
 map 
 ```
 
-![고위험음주율지도](/coco-2021-health/고위험음주율지도.png)
+![고위험음주율지도](coco-2021-health/고위험음주율지도.png)
 
 - **고위험 음주율**: 최근 1년 동안 음주한 사람 중에서 남자는 한 번의 술자리에서 7잔 이상, 여자는  5잔 이상을 주 2회 이상 마시는 사람의 분율. (해당 연도 및 지역의 인구 구성비를 그대로 반영하여 산출된 ‘조율’을 사용)  
 
@@ -351,14 +351,14 @@ smoking_corr = smoking_corr.drop(['천명당 담배 소매업수', '천명당 �
 smoking_corr
 ```
 
-![smoking_corr](/coco-2021-health/흡연음주cor.png)
+![smoking_corr](coco-2021-health/흡연음주cor.png)
 
 ```
 smoking_heatmap = sns.heatmap(smoking_corr, cbar = True, annot = True, annot_kws={'size' : 18}, fmt = '.2f', square = True, cmap = 'Blues')
 smoking_heatmap
 ```
 
-![smoking_heatmap](/coco-2021-health/흡연음주히트맵.png)
+![smoking_heatmap](coco-2021-health/흡연음주히트맵.png)
 
 이 두 건강행동, 흡연율과 고위험 음주율의 상관계수는 **0.41**로 양의 상관관계를 가진다.   
 
@@ -388,7 +388,7 @@ folium.Choropleth(geo_data = geo_str,
 map 
 ```
 
-![천명당담배소매업체수지도](/coco-2021-health/천명당담배소매업체수지도.png)
+![천명당담배소매업체수지도](coco-2021-health/천명당담배소매업체수지도.png)
 
 - **천 명당 담배 소매업체 수** : 담배를 매입하여 일반인에게 판매하는 업체. 편의점도 포함된다.  
 
@@ -410,7 +410,7 @@ folium.Choropleth(geo_data = geo_str,
 map 
 ```
 
-![천명당주점수지도](/coco-2021-health/천명당주점수지도.png)
+![천명당주점수지도](coco-2021-health/천명당주점수지도.png)
 
 - **주점** : 단란주점과 유흥주점 수의 합으로 정의했다.
 
@@ -433,7 +433,7 @@ folium.Choropleth(geo_data = geo_str,
 map
 ```
 
-![1인당공원면적지도](/coco-2021-health/1인당공원면적지도.png)
+![1인당공원면적지도](coco-2021-health/1인당공원면적지도.png)
 
 1인당 공원 면적은 **서울, 경기, 인천** 지역이 다른 지역보다 공원 면적이 조금 좁은 것을 알 수 있다.
 
@@ -447,7 +447,7 @@ smoking_corr = smoking_corr.drop(['1인당 공원 면적', '고위험 음주율'
 smoking_corr
 ```
 
-![smoking_corr](/coco-2021-health/smoking_corr.png)
+![smoking_corr](coco-2021-health/smoking_corr.png)
 
 ```
 #흡연율과 도시환경의 관계
@@ -455,7 +455,7 @@ smoking_heatmap = sns.heatmap(smoking_corr, cbar = True, annot = True, annot_kws
 smoking_heatmap
 ```
 
-![smoking_heatmap](/coco-2021-health/smoking_heatmap.png)
+![smoking_heatmap](coco-2021-health/smoking_heatmap.png)
 
 흡연율과 천 명당 담배소매업체 수는 매우 약한 양의 상관관계를, 흡연율과 천 명당 주점 수는 **0.2**로 약한 양의 상관관계를 보인다.
 
@@ -480,7 +480,7 @@ plt.ylabel('흡연율')
 plt.show()
 ```
 
-![흡연율주점수추세](/coco-2021-health/천명당주점수-흡연율회귀선.PNG)
+![흡연율주점수추세](coco-2021-health/천명당주점수-흡연율회귀선.PNG)
 
 흡연율과 천 명당 주점 수의 관계를 추세선을 통해 확인해볼 수 있다. 상관성이 높은 지역으로는 **경기,  경북, 강원** 등이다.
 
@@ -490,14 +490,14 @@ drink_corr = drink_corr.drop(['1인당 공원 면적', '흡연율'])
 drink_corr
 ```
 
-![drink_corr](/coco-2021-health/drink_corr.png)
+![drink_corr](coco-2021-health/drink_corr.png)
 
 ```
 drink_heatmap = sns.heatmap(drink_corr, cbar = True, annot = True, annot_kws={'size' : 18}, fmt = '.2f', square = True, cmap = 'Blues')
 drink_heatmap
 ```
 
-![drink_heatmap](/coco-2021-health/drink_heatmap.png)
+![drink_heatmap](coco-2021-health/drink_heatmap.png)
 
 한편 고위험 음주율과 천 명당 담배 소매업체 수, 고위험 음주율과 천 명당 주점 수의 상관계수는 각각 **0.27, 0.23**으로 약한 양의 상관관계를 보인다.
 
@@ -522,7 +522,7 @@ plt.ylabel('고위험 음주율')
 plt.show()
 ```
 
-![음주율주점수추세](/coco-2021-health/고위험음주율-천명당주점수회귀선.PNG)
+![음주율주점수추세](coco-2021-health/고위험음주율-천명당주점수회귀선.PNG)
 
 광역시도별로 확인해보면 고위험 음주율과 도시환경의 상관성이 높은 지역은 두 가지 변수 모두 **강원, 전남, 경상** 지역 등이다.
 
@@ -534,14 +534,14 @@ park_corr = park_corr.drop(['천명당 담배 소매업수', '천명당 주점�
 park_corr
 ```
 
-![park_corr](/coco-2021-health/park_corr.png)
+![park_corr](coco-2021-health/park_corr.png)
 
 ```
 park_heatmap = sns.heatmap(park_corr, cbar = True, annot = True, annot_kws={'size' : 18}, fmt = '.2f', square = True, cmap = 'Blues')
 park_heatmap
 ```
 
-![park_heatmap](/coco-2021-health/park_heatmap.png)
+![park_heatmap](coco-2021-health/park_heatmap.png)
 
 흡연율, 고위험 음주율과 1인당 공원 면적의 상관계수는 모두 **0.11** 정도로 매우 약한 양의 상관관계를 보인다.  
 
@@ -569,7 +569,7 @@ folium.Choropleth(geo_data = geo_str,
 map
 ```
 
-![1인당보험료지도](/coco-2021-health/1인당보험료지도.png)
+![1인당보험료지도](coco-2021-health/1인당보험료지도.png)
 
 ```
 #조이혼율
@@ -587,7 +587,7 @@ folium.Choropleth(geo_data = geo_str,
 map
 ```
 
-![조이혼율지도](/coco-2021-health/조이혼율지도.png)
+![조이혼율지도](coco-2021-health/조이혼율지도.png)
 
 #재정자립도
 
@@ -607,7 +607,7 @@ folium.Choropleth(geo_data = geo_str,
 map
 ```
 
-![재정자립도지도](/coco-2021-health/재정자립도지도.png)
+![재정자립도지도](coco-2021-health/재정자립도지도.png)
 
 - **재정 자립도** : 재정 수입의 충당 능력을 나타내는 지표로 재정 자립도가 높을수록 재정 운영의 자립 능력이 우수함을 의미한다.  
 
@@ -629,14 +629,14 @@ hierarchy_corr = hierarchy_corr.drop(['인구수', '조이혼율', '재정자립
 hierarchy_corr
 ```
 
-![hierarchy_corr](/coco-2021-health/hierarchy_corr.png)
+![hierarchy_corr](coco-2021-health/hierarchy_corr.png)
 
 ```
 #1인당 보험료(계층)와 건강행동
 hierarchy_heatmap = sns.heatmap(hierarchy_corr, cbar = True, annot = True, annot_kws={'size' : 20}, fmt = '.2f', square = True, cmap = 'Blues')
 ```
 
-![hierarchy_heatmap](/coco-2021-health/hierarchy_heatmap.png)
+![hierarchy_heatmap](coco-2021-health/hierarchy_heatmap.png)
 
 변수 간 상관분석을 한 결과, 1인당 보험료와 흡연, 음주율의 상관계수는 각각 **-0.05, -0.07**로 상관관계가 거의 없다고 할 수 있다.
 
@@ -646,14 +646,14 @@ divorce_corr = divorce_corr.drop(['인구수', '1인당 보험료', '재정자�
 divorce_corr
 ```
 
-![divorce_corr](/coco-2021-health/divorce_corr.png)
+![divorce_corr](coco-2021-health/divorce_corr.png)
 
 ```
 #조이혼율과 건강행동
 divorce_heatmap = sns.heatmap(divorce_corr, cbar = True, annot = True, annot_kws={'size' : 20}, fmt = '.2f', square = True, cmap = 'Blues')
 ```
 
-![divorce_heatmap](/coco-2021-health/divorce_heatmap.png)
+![divorce_heatmap](coco-2021-health/divorce_heatmap.png)
 
 ```
 fp1 = np.polyfit(merge2['조이혼율'], merge2['흡연율'],1)
@@ -674,7 +674,7 @@ plt.ylabel('흡연율')
 plt.show()
 ```
 
-![조이혼율추세](/coco-2021-health/이혼율- 흡연율.PNG)
+![조이혼율추세](coco-2021-health/이혼율- 흡연율.PNG)
 
 조이혼율과 흡연율의 상관계수는  **0.2**로, 특히 **충청 지역, 제주, 인천** 지역이 상관성이 높았다. 반면 조이혼율과 고위험 음주율은 상관성이 거의 없었다.
 
@@ -684,14 +684,14 @@ finance_corr = finance_corr.drop(['인구수', '1인당 보험료', '조이혼�
 finance_cor
 ```
 
-![finance_corr](/coco-2021-health/finance_corr.png)
+![finance_corr](coco-2021-health/finance_corr.png)
 
 ```
 #재정자립도와 건강행동
 finance_heatmap = sns.heatmap(finance_corr, cbar = True, annot = True, annot_kws={'size' : 20}, fmt = '.2f', square = True, cmap = 'Blues')
 ```
 
-![finance_heatmap](/coco-2021-health/finance_heatmap.png)
+![finance_heatmap](coco-2021-health/finance_heatmap.png)
 
 재정자립도와 건강행동도 마찬가지로 상관성이 매우 낮은 결과가 도출되었다.
 
@@ -705,7 +705,7 @@ finance_heatmap = sns.heatmap(finance_corr, cbar = True, annot = True, annot_kws
 
 또한 **지역격차에 관련된 사회적 결정요인**을 찾아보았다. 분석 결과, 흡연율의 지역 간 변이와 관련된 변수는 <u>천 명당 주점 수와 조이혼율</u>이고, 고위험 음주율의 지역 간 변이와 관련된 변수는 <u>천 명당 주점 수와 천 명당 담배 소매업체 수</u>였다.
 
-![결론](/coco-2021-health/결론.png)
+![결론](coco-2021-health/결론.png)
 
 ### 4.2 건강 행동 격차 축소 방안
 
