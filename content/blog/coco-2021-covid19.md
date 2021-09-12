@@ -1,5 +1,3 @@
-# 4. 데이터 분석
-
 ---
 
 title: COCO 2021 corona19
