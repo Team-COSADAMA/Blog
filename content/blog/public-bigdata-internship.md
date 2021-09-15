@@ -1,13 +1,11 @@
 ---
-
-title: '공공빅데이터 인턴십'을 망설이는 사람들에게
+title: 공공빅데이터 인턴십 후기
 description: 공공빅데이터 인턴십 후기
 slug: public-bigdata-internship
 img: not-yet-generated.png
 datetime: 2021. 08. 31.
 category: Internship
 author: 정찬
-
 ---
 
 안녕하세요 공공빅데이터 인턴십 staff 정찬입니다.
@@ -201,4 +199,3 @@ Gdrive로 데이터를 일원화 한 것도 편리함을 더했습니다.
 
 지금까지 Staff 정찬이었습니다.
 감사합니다.
-
