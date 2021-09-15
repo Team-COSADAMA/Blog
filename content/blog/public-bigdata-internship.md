@@ -96,11 +96,11 @@ SQL은 Fall Rush에서 제가 기획한 커리큘럼으로 학습하신다면 �
 시각화 자료는 저 혼자 진행한 내용이 아니기 때문에 블로그에는 공개하지 못하는 점 양해 부탁드립니다.
 대신 대회 참여 영상 링크 올려드립니다.
 
-![공공빅데이터인턴십 발표영상](https://www.youtube.com/watch?v=BsHaxI-RVJc&list=PLgH4jVlBT3yh0h36tXGaXq-SadxHz8cxK&index=40) 
+[![공공빅데이터인턴십 발표영상](/public-bigdata-internship/internship_project_page.png)](https://youtu.be/BsHaxI-RVJc) 
 
 공공기관인만큼 프로젝트의 목적이 국민 삶의 질을 개선하는 정책 제안이었습니다.
 저는 Project Manager를 맡아 프로젝트 전반을 책임졌습니다.
-주제는 **'학대피해아동 쉼터 최적 입지 선정'**이었습니다.
+주제는 **학대피해아동 쉼터 최적 입지 선정**이었습니다.
 
 먼저 학대 피해건수가 10년 사이 5배 증가한 내용을 누적 그래프로 시각화 했고, 
 설치 관련 예산이 부족하다는 점을 강조했습니다.
