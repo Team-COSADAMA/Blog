@@ -1,4 +1,12 @@
-# '공공빅데이터 인턴십'을 망설이는 사람들에게
+---
+title: '공공빅데이터 인턴십'을 망설이는 사람들에게
+description: 공공빅데이터 인턴십 후기
+slug: public-bigdata-internship
+img: not-yet-generated.png
+datetime: 2021. 08. 31.
+category: Internship
+author: 정찬
+---
 
 
 안녕하세요 공공빅데이터 인턴십 staff 정찬입니다.
@@ -12,8 +20,8 @@
 ### 주최
 공공빅데이터 인턴십은 행정안전부와 지능정보사회연구원에서 주최하는 인턴십입니다.
 
-![행안부](./img/InS.jpg)
-![NIA](./img/nia.png)
+![행안부](public-bigdata-internship/InS.jpg)
+![NIA](public-bigdata-internship/nia.png)
 
 
 ### 선발 조건 및 과정
@@ -21,8 +29,8 @@
 
 인성, 서류, 면접을 거쳐 선발됩니다.
 
-![선발조건](./img/선발조건.png)
-![선발과정](./img/선발과정.png)
+![선발조건](public-bigdata-internship/선발조건.png)
+![선발과정](public-bigdata-internship/선발과정.png)
 
 
 ### 참여 기관
@@ -31,7 +39,7 @@
 제가 여기 적어둔 곳은 일부에 불과합니다.
 또 매년 참여 기관이 조금씩 달라지니까 유의하세요!
 
-![참여기관](./img/참여기관.png)
+![참여기관](public-bigdata-internship/참여기관.png)
 
 |공공기관|지방자치단체|중앙부처|
 |--------|------------|--------|
