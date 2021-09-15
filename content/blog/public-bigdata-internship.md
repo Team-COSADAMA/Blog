@@ -8,7 +8,6 @@ category: Internship
 author: 정찬
 ---
 
-
 안녕하세요 공공빅데이터 인턴십 staff 정찬입니다.
 
 오늘은 공공빅데이터 인턴십이 무엇인지, 무얼 하는지, 
