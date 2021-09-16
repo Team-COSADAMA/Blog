@@ -415,8 +415,7 @@ AI 기술이 발전하면서 문자 피싱을 넘어 AI를 이용한 피싱, 일
 
 ---
 
-사단법인한국산업보안연구학회, “산업보안학”, ㈜박영사(2019)
-
+- 사단법인한국산업보안연구학회, “산업보안학”, ㈜박영사(2019)
 - [http://m.joseilbo.com/news/view.htm?newsid=395618#_enliple](http://m.joseilbo.com/news/view.htm?newsid=395618#_enliple)
 - [https://news.nate.com/view/20210407n07705](https://news.nate.com/view/20210407n07705)[http://www.hnews.co.kr/news/articleView.html?idxno=54570](http://www.hnews.co.kr/news/articleView.html?idxno=54570)
 - [http://www.newstomato.com/ReadNews.aspx?no=1022842](http://www.newstomato.com/ReadNews.aspx?no=1022842)[https://www.edaily.co.kr/news/read?newsId=01279206625642968](https://www.edaily.co.kr/news/read?newsId=01279206625642968)
