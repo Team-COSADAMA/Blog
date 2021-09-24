@@ -11,7 +11,7 @@ author: 정 찬
 
 
 
-아나콘다, 윈도우 파워쉘 모두 공부할 마음을 들게 하지 않더군요! 본격적으로 공부하기 전에 어떻게든 예쁘게 만들어야 했습니다. 구글신에게 문의하니 윈도우에서 작년 즈음 terminal을 만들어 주었대요!! 얼른 다운로드 했습니다.
+아나콘다, 윈도우 파워쉘 모두 눈이 고통스러워서 공부할 마음이 안들더라구요! 본격적으로 학습하기 전에 어떻게든 예쁘게 만들어야 했습니다. 구글신에게 문의하니 윈도우에서 작년 즈음 terminal을 만들어 주었대요!! 얼른 다운로드 했습니다.
 
 ![anaconda_shell](/window-terminal-scheme/anaconda_shell.PNG)
 
@@ -51,7 +51,7 @@ Microsoft Store에 Terminal이라고 검색하면 Windows Terminal이 두 종류
 
 - **commandline**: 어떤 프로그램을 활용할지 exe 등의 위치를 적어줍니다. 저는 Anaconda 가상환경을 이용할 예정이라 검색창에서 파일 위치를 복사해 붙여 넣기 해 주었습니다.(새로운 프로그램을 추가하려면 새로운 {}을 파주세요!)
 
-  **주의**: WindowsPowerShell.exe부터 끝까지만 복붙할 것! + \대신 \\\ 처리 해줄 것!
+  **주의**: WindowsPowerShell.exe부터 끝까지만 복붙할 것! + \대신 \\\ 처리 해줄 것! 아래는 저의 경우입니다. 본인 저장 위치를 꼭 찾아서 적용하세요!
 
   `"commandline": "powershell.exe -ExecutionPolicy ByPass -NoExit -Command \"& 'C:\\Anaconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'C:\\Anaconda3'\""`
 
@@ -66,13 +66,13 @@ Microsoft Store에 Terminal이라고 검색하면 Windows Terminal이 두 종류
 
 
 - guid: 인터페이스를 구별하는 id라고 생각하시면 됩니다. 풀네임은 전역 고유 식별자 Globally Unique Identifier라고 합니다. [GUID만드는 사이트](https://www.guidgen.com/) 에서 하나 만드시고 적용하세요
-- acrylicOpacity: 투명도 입니다. 적당히 투명하니까 영롱하고 멋있더라구요!
+- acrylicOpacity: 투명도 입니다. 적당히 투명하니까 영롱하고 멋있더라구요! 0~1사이 값을 넣어주시면 됩니다.
 
 
 
 ## 폰트 설정
 
-원하는 스키마를 적용해 주시고, 폰트도 조절해주세요!
+원하는 스키마colorScheme를 적용해 주시고, 폰트font도 조절해주세요!
 
 혹시 기본 스키마가 마음에 들지 않는다면 [스키마사이트1](https://ohmyposh.dev/docs/themes), [스키마사이트2](https://windowsterminalthemes.dev/) 등을 참고해 바꿔주세요. 하단 "schemes" 에 추가해주시는 것 잊지 마시구요!
 
