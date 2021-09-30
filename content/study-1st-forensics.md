@@ -1,3 +1,15 @@
+---
+
+title: 디지털 포렌식 1주차 스터디
+description: I. 디지털 포렌식 개념 제1장 디지털 포렌식
+slug: study-1st-forensics
+img: not-yet-generated.png
+datetime: 2021. 09. 29.
+category: 디지털 포렌식
+author: 최예지
+
+---
+
 # 제1장 디지털포렌식
 
 
@@ -30,7 +42,7 @@
 
 프로그램을 실행시키면 아래와 같은 화면이 나온다. 
 
-![프로그램 실행화면](프로그램 실행화면.png)
+![프로그램 실행화면](study-1st-forensics/프로그램 실행화면.png)
 
 ### 2. 해쉬 값 분석
 
