@@ -1,4 +1,4 @@
-﻿---
+---
 
 title: 한국어 형태소 분석기 비교 (지도학습기반) 
 description: 실전NLP_첫 번째 
@@ -43,6 +43,7 @@ df=df[['문화재명(국문)', '내용']]
 df.head()
 ```
 다음과 같은 df를 정리해줄 수 있다. 
+
 ![heritage-spec dataframe](/practiceNLP/heritage-spec.png)
 
 
@@ -50,7 +51,7 @@ df.head()
 지도학습 기반 형태소 분석은 문장을 토큰화할 때에 언어학 전문가들이 태깅한 형태소 분석 말뭉치로 부터 학습된 태깅을 사용하는 것이다. (지도학습: 정답이 있는 데이터의 패턴을 학습해 모델이 정답을 맞도록 하는 기법)
 KoNLPy 패키지의 여러 모듈과 Khaiii는 모두 이미 학습된 모델을 기반으로 갖고 있어 토큰화하고 싶은 문장을 넣어주면 정답 패턴에 맞게 토큰화하여 출력한다. 
 
-### 1) KoNLPy
+### 1) KoNLPy   
 [KoNLPy](https://konlpy.org/ko/latest/)는 아래 다섯 개의 오픈소스 형태소 분석기를 파이썬 환경에서 사용할 수 있도록 한 한국어 자연어처리 패키지이다.
 
 -   Kkma
@@ -63,7 +64,7 @@ KoNLPy 공식 사이트에서는 각 형태소 분석기 간의 로딩, 실행 �
 
 참고블로그:  [Mecab 설치](https://sanghyu.tistory.com/170)  ,  [PyKomoran 설치](https://blossoming-man.tistory.com/entry/PyKomoran-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%A0%95%EB%A6%AC)  ,  [코드실행시간측정](https://blockdmask.tistory.com/549)  ,  [KoNLPy tag class](https://konlpy-ko.readthedocs.io/ko/v0.4.3/api/konlpy.tag/)
 
-1. 설치하기 
+1. 설치하기    
 KoNLPy를 설치하는 과정에 대한 부가적인 설명은 생략한다. 
 ```
 ###for konlpy
@@ -95,7 +96,7 @@ pip3 install /tmp/mecab-python-0.996
 ###for komoran
 !pip install PyKomoran
 ```
-2. 모듈 (형태소분석기) 설치하기
+2. 모듈 (형태소분석기) 설치하기    
 앞서 언급했듯 `from konlpy.tag import Komoran`으로 실행했을 때 Java에러가 발생했다. 이를 해결하지 못하여  PyKomoran설치하여 진행하였다. 
 ```
 from konlpy.tag import Kkma, Komoran, Hannanum, Okt
@@ -108,7 +109,7 @@ hannanum = Hannanum()
 komoran = Komoran(DEFAULT_MODEL['FULL'])
 mecab = Mecab()
 ```
-3. 소요시간 확인 함수 만들기
+3. 소요시간 확인 함수 만들기     
 각 형태소 분석기에 따라 명사를 추출하는데 걸리는 시간을  비교해보기 위한 함수를 설정한다. 결과는 아래 Khaiii와 한 번에 확인해보자. 
 ```
 import time
@@ -124,12 +125,12 @@ def  time_use(a,b):
 	print('{0} ==> {1}'.format(a ,total_time))
 ```
 
-### 2) Khaiii
+### 2) Khaiii   
 Kakao에서 만든 [Khaiii](https://github.com/kakao/khaiii)는 MS Window를 지원하지 않는다. 그러나 아래의 코드로 코랩에서 설치하면 정상적으로 사용할 수 있었다. (로컬에 설치하기 위해서는 컴파일러 설치가 필요하다.) 다운받는 데 약 10분 정도 소요된다.
 
 참고블로그: [코랩에 Khaiii설치하기](https://colab.research.google.com/drive/1FfhWsP9izQcuVl06P30r5cCxELA1ciVE#scrollTo=Rwma8M5gjW5L)
 
-1. 설치하기 
+1. 설치하기    
 Khaiii 설치에 대한 부가적인 설명은 생략한다. (공식 홈페이지와 위 블로그 참고) 
 ```
 !git clone https://github.com/kakao/khaiii.git
@@ -142,12 +143,12 @@ Khaiii 설치에 대한 부가적인 설명은 생략한다. (공식 홈페이�
 !cd /content/build && make package_python
 !pip install /content/build/package_python
 ```
-2. 모듈 설치하기 
+2. 모듈 설치하기     
 ```
 from khaiii import KhaiiiAp
 khaiii = KhaiiiApi()
 ```
-3.  소요시간 확인 함수 만들기
+3.  소요시간 확인 함수 만들기    
 ```
 def  time_use2(a):
 	start = time.time()
@@ -177,10 +178,12 @@ time_use(mecab, 'mecab')
 time_use2(khaiii)
 ```
 결과는 다음과 같이 **Mecab > Khaiii > Komoran > Okt > Hannanum > Kkma** 순으로 속도가 빠르다.
-![time-use](/practiceNLP/time-use.png)
+ 
+![time-use](/practiceNLP/time-use.png)   
+
 (데이터 양이 많아질수록 hannanum보다 Okt가 훨씬 빨리졌다. 또한 실행 할 때마다 형태소 분석기 속도가 약간의 차이를 보였다.)   
 
-3-2) 성능비교 (명사 토큰 추출 결과)
+3-2) 성능비교 (명사 토큰 추출 결과)     
 소요시간도 중요하지만, 가장 중요한 것은 토큰이 올바르게 추출되었는지에 대한 정확도이다. 정확도를 확인하기 위해서는 추출된 토큰을 데이터 프레임으로 만들어준 뒤, 하나씩 확인해주는 방법을 택했다. 
 ```
 #KoNLPy 결과
@@ -198,7 +201,9 @@ total_tokens=pd.concat([konlpy_df, khaiii_df], axis=1)
 total_tokens
 ```
 아래의 결과는 국보2호 하나의 내용을 토큰화한 결과이다. 
+
 ![total_tokens](/practiceNLP/total_tokens.png)
+
 okt는 114개, hannanum은 102개, kkma는 109개, komoran는 89개, mecab은 117개, 그리고 khaiii는 116개의 토큰으로 문장을 쪼개주었다. 가장 세세하게 명사를 추출한 건 Mecab(117), Khaiii(116)이고 Komoran(89)은 가장 러프하게 추출했다. 적합한 형태소 분석기는 이 데이터 프레임을 보고 각 단어를 하나하나 비교하여 선택해야 한다.  예를 들어, '걸작품'이라는 단어를 하나의 단어로 인식한 Khaiii가 '걸'과 '작품'으로 인식한 Mecab 보다 더 나은 형태소 분석을 했음을 알 수 있다. 이와 같이 모든 단어들을 비교해보고 가장 적합한 형태소 분석기를 선택하는 과정이 다소 주관적일 수는 있으나, 사용 목적 및 최종 결과물 형태에 따라 결정하면 된다. 
 
 
