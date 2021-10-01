@@ -42,7 +42,7 @@ author: 최예지
 
 프로그램을 실행시키면 아래와 같은 화면이 나온다. 
 
-![프로그램 실행화면](study-forensics-1st/프로그램 실행화면.png)
+![프로그램 실행화면.png](study-forensics-1st/프로그램 실행화면.png)
 
 ### 2. 해쉬 값 분석
 
