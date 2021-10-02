@@ -22,7 +22,7 @@
                     </li> -->
                     <li>
                         <div class="group pl-4">
-                            <a href="https://github.com/thepenielcho" target="blank" class="">
+                            <a href="https://github.com/Team-COSADAMA" target="blank" class="">
                                 <GithubLogo />
                             </a>
                         </div>
