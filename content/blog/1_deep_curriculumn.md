@@ -1,10 +1,15 @@
 ---
 
 title: [커리큘럼 심화] 쪼코 1차 블로그 포스팅
+
 description: 쪼코 1차 블로그 포스팅, 1. scrapy 설치 및 scrapy shell 사용 익히기
+
 slug: 1_deep_curriculumn
+
 datetime: 2021. 10. 01.
+
 category: Scrapy
+
 author: 김윤진
 
 ---
