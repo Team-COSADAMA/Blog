@@ -1,6 +1,6 @@
 <template>
     <div class="w-full p-3 border-b md:border-b border-gray-200">
-        <div class="max-w-5xl mx-auto flex items-center justify-between">
+        <div class="max-w-4xl mx-auto flex items-center justify-between">
 
             <div class="ml-1.5 md:ml-0">
                 <nuxt-link to="/">
@@ -8,7 +8,29 @@
                 </nuxt-link>
             </div>
 
-            <div class="md:hidden flex content-center">
+            <div class="">
+                <ul class="flex space-x-1 text-base items-center">
+                    <!-- <li>
+                        <div class="py-1 px-2 rounded-lg hover:bg-gray-100">
+                            <nuxt-link to="socio" class="text-gray-500 text-sm">사회학</nuxt-link>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="py-1 px-2 rounded-lg hover:bg-gray-100">
+                            <nuxt-link to="others" class="text-gray-500 text-sm">그 외</nuxt-link>
+                        </div>
+                    </li> -->
+                    <li>
+                        <div class="group pl-4">
+                            <a href="https://github.com/Team-COSADAMA" target="blank" class="">
+                                <GithubLogo />
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- <div class="md:hidden flex content-center">
                 <button @click="drawer">
                 <svg 
                     class="h-8 w-8 fill-current text-black"
@@ -75,7 +97,8 @@
                 </ul>
                 <p href="#" @click="isOpen = false" class="my-4 inline-block text-sm font-normal text-gray-500">© 2021 COSADAMA, <br/> All Rights Reserved.</p>
 
-            </aside>
+            </aside> -->
+
         </div>
     </div>
 </template>

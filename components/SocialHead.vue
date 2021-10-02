@@ -17,7 +17,7 @@ export default {
     },
     image: {
       type: String,
-      default: 'https://nuxtjs.org/nuxt-card.png'
+      default: 'https://www.blog.cosadama.com/not-yet-generated.png'
     }
   },
 
