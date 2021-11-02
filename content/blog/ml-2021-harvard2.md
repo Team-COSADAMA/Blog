@@ -1,6 +1,6 @@
 ---
 
-title: Machine Learning(Harvard)
+title: Machine Learning(Harvard) Classification study
 description: CS109강의로 머신러닝 공부
 slug: ml-2021-harvard2
 img: not-yet-generated.png
