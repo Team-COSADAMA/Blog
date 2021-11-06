@@ -20,11 +20,11 @@ sql 커리큘럼 교안을 만들다가 ERROR 3948 (42000) 때문에 막힌적�
 
 예를 들어 21년 9월 데이터는 107mb이고, 확인할 수 있는 마지막 row가 1048576입니다:) 그래서 처음 열 때 보면 아래와 같이 warning이 나옵니다.
 
-![too_big_for_excel](C:\Users\jung6\github\Blog\static\MySQL-csv-import\too_big_for_excel.PNG)
+![too_big_for_excel](MySQL-csv-import/too_big_for_excel.PNG)
 
 일단 excel을 연 김에 컬럼까지 확인합시다. '사용일자, 노선번호, 노선명, 버스정류장ARS, 역명, 승차총승객수, 하차총승객수, 등록일자' 식으로 되어 있군요. 참고하고 넘어갑시다.
 
-![columns](C:\Users\jung6\github\Blog\static\MySQL-csv-import\columns.PNG)
+![columns](MySQL-csv-import/columns.PNG)
 
 
 
