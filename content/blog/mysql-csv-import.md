@@ -1,5 +1,6 @@
 ---
-title: MySQL에 빅데이터를 넣으려면? (feat.ERROR 3948 (42000): Loading local data is disabled; this must be enabled on both the client and server sides)
+
+title: MySQL에 빅데이터를 넣으려면?
 description: 백만건 이상의 데이터를 import 하려면 어떻게 해야할까요?
 img: not-yet-generated.png
 slug: mysql-csv-import
@@ -8,8 +9,6 @@ category: SQL
 author: 정 찬
 
 ---
-
-
 
 sql 커리큘럼 교안을 만들다가 ERROR 3948 (42000) 때문에 막힌적이 있었는데요. 동료에게 배워 해결했습니다:)
 
