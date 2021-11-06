@@ -1,16 +1,19 @@
 ---
 
 title: MySQL에 빅데이터를 넣으려면?
-description: 백만건 이상의 데이터를 import 하려면 어떻게 해야할까요?
+description: 백만건 이상의 데이터를 import 하려면 어떻게 해야할까요? (feat.ERROR 3948 (42000):Loading local data is disabled; this must be enabled on both the client and server sides)
 img: not-yet-generated.png
 slug: mysql-csv-import
-datetime: 2021. 10. 31.
-category: SQL
+datetime: 2021.10.31.
+category: MySQL
 author: 정 찬
+
 
 ---
 
-sql 커리큘럼 교안을 만들다가 ERROR 3948 (42000) 때문에 막힌적이 있었는데요. 동료에게 배워 해결했습니다:)
+
+
+sql 커리큘럼 교안을 만들다가 ERROR 3948 (42000) 때문에 막힌적이 있었는데요. 결국 해결했습니다:) 
 
 우리는 대용량의 데이터를 효과적으로 관리하고, 찾기 위해서 sql 등 dbms를 사용합니다. 하지만 컬럼을 정의해주고, 얼마만큼 메모리를 할당할지, 자료형은 무엇인지 써주어야 하죠. 즉, 조금 번거롭고, 전처리의 어려움이 있습니다. 그래서 이 부분을 보완하고 빠른 작업을 위해 python과 mysql은 같이 연동하면 효과적입니다. 4주차 내용과 겹치지만 잊지 않기 위해서 먼저 적어 두겠습니다.
 
@@ -40,7 +43,9 @@ sql 커리큘럼 교안을 만들다가 ERROR 3948 (42000) 때문에 막힌적�
 
 (만약 깨진다면 다른 이름으로 저장 ->  확장자를 txt로 해주세요. 하지만 데이터가 날아갈 수 있습니다.)
 
-<img src="C:\Users\jung6\github\Blog\static\MySQL-csv-import\txt.PNG" alt="txt" style="zoom:38%;" />
+![columns](MySQL-csv-import/txt.PNG)
+
+
 
 자 이 상태에서 txt 파일을 fields terminated by '\t'로 해결되지 않는다!
 
@@ -56,6 +61,12 @@ sql 커리큘럼 교안을 만들다가 ERROR 3948 (42000) 때문에 막힌적�
 
 ## Error 3948 해결방안
 
+### step0. mysql 환경설정
+
+[mysql 환경설정 방법](https://hoho325.tistory.com/163)으로 설명은 대체합니다. (Window10기준)
+
+
+
 ### step1. cmd 켜기
 
 일단 **cmd**를 켜주세요. git cmd, anaconda cmd 아닙니다. 그냥 **명령 프롬프트** 켜주세요.
@@ -68,7 +79,7 @@ sql 커리큘럼 교안을 만들다가 ERROR 3948 (42000) 때문에 막힌적�
 
 라고 치고, root 계정의 비밀번호를 입력합니다.
 
-![cmd](C:\Users\jung6\github\Blog\static\MySQL-csv-import\cmd.PNG)
+![cmd](MySQL-csv-import/cmd.PNG)
 
 아마 여러분들은 박스 안의 local_infile이 off로 되어 있을겁니다.
 
@@ -88,7 +99,7 @@ sql 커리큘럼 교안을 만들다가 ERROR 3948 (42000) 때문에 막힌적�
 
 `mysql> exit` 
 
-exit 입력하셔서 쿨하게 나와줍니다.
+exit 입력하시고 쿨하게 나와줍니다.
 
 
 
@@ -126,7 +137,9 @@ exit 입력하셔서 쿨하게 나와줍니다.
     -> id int auto_increment primary key)
     -> ;`
 
-<img src="C:\Users\jung6\github\Blog\static\MySQL-csv-import\create_db_table.PNG" alt="create_db_table" style="zoom: 67%;" />
+
+
+![columns](MySQL-csv-import/create_db_table.PNG)
 
 저는 중간에 database를 선택해 주지 않아서 에러가 한번 나왔네요! 여러분들은 잊지 마세요~
 
@@ -144,11 +157,11 @@ IGNORE 1 ROWS
 ;
 ```
 
-![txt_import](C:\Users\jung6\github\Blog\static\MySQL-csv-import\txt_import.PNG)
+![txt_import](MySQL-csv-import/txt_import.PNG)
 
 엇, 아까 csv 파일의 마지막 row 수와 같군요?  저는 csv파일을 TXT로 다른 이름으로 저장했는데요. CSV파일을 열면서 데이터가 소실되었나봅니다. 여러분들은 확장자를 csv에서 txt로 바꾸시면서 온전한 데이터를 db화 하시기 바랍니다:)
 
-![workbench_check](C:\Users\jung6\github\Blog\static\MySQL-csv-import\workbench_check.PNG)
+![workbench_check](MySQL-csv-import/workbench_check.PNG)
 
 
 
