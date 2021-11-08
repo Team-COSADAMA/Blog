@@ -1,7 +1,7 @@
 ---
 
 title: 디지털 포렌식 2주차 스터디(2)
-description: II. 휘발성데이터 수집 분석 제1장 휘발성 데이터 분석
+description: II. 휘발성데이터 수집 분석 제2장 휘발성 데이터 분석
 slug: study-forensics-4th
 img: not-yet-generated.png
 datetime: 2021. 11. 09.
