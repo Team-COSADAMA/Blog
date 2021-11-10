@@ -4,7 +4,7 @@ title: 바닐라 JS 챌린지 (Login, Clock, Quotes and Background)
 description: 프론트엔트 스터디 TIL
 slug: 2021-fw-frontend-02
 img: not-yet-generated.png
-datetime: 2021. 11. 10v.
+datetime: 2021. 11. 10.
 category: Frontend
 author: 신혜린
 
