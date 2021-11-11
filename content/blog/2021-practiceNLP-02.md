@@ -18,8 +18,6 @@ author: 이정윤
 
 따라서 비지도학습 기반 형태소 분석은 사용하는 말뭉치(corpus)의 크기가 커야하며 내용도 유사한 것들로 구성되어 있어야 한다. 대부분의 Soynlp나 Google sentencepiece 예제에서는 누군가 이미 웹 상에 수집하여 올려놓은 [네이버 영화 리뷰 데이터](https://raw.githubusercontent.com/e9t/nsmc/master/ratings.txt)나, [lovit github](https://github.com/lovit/soynlp)에서 제시하고 있는 뉴스기사 크롤링 데이터를 활용한다.  그러나 해당 스터디의 목표는 '실전nlp' 인만큼, 실제로 형태소 분석 작업이 필요한 말뭉치를 직접 선정하여 실습을 진행해보았다. 따라서 실습 결과 형태소 분석을 완벽하게 구현하지 못할 가능성이 있다.  실습한 전체 코드는 [여기서](https://colab.research.google.com/drive/11OzAFQiXaJvzCq53vkA0ysWyNYRBW62a#scrollTo=ErQw2g0Bcs_K&uniqifier=1) 확인할 수 있다.
 
-file:///C:/Users/cathx/Downloads/pycon2017koreannlp-170809135945.pdf
-
 참고도서: 한국어임베딩(이기창, 2019) 
 참고자료: [미등록단어 문제와 데이터 부족 현상을 해결하기 위한 비지도학습 토크나이저와 추출 기반 문서 요약 기법](https://s-space.snu.ac.kr/handle/10371/161932?mode=full) | [한글 토크나이징 라이브러리 모듈 분석(이재경 외 2명)](https://www.koreascience.or.kr/article/CFKO202121751207238.pdf)
 
