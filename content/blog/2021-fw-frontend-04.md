@@ -21,7 +21,6 @@ author: 신윤진
 
 <br>
 
-![1_1](/assets/images/posts/js/typescript/1_1.png)
 
 - 자바스크립트의 상위 집합 > ECMA의 최신 표준을 충분히 지원
   - [**ECMA 스크립트**](https://ko.wikipedia.org/wiki/ECMA%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8)란?
@@ -58,7 +57,6 @@ author: 신윤진
 
 #### 3) 코어 타입스크립트 컴파일러
 
-![1_2](/assets/images/posts/js/typescript/1_2.png)
 
 - `언어 변환 기능`을 수행하는 아키텍처
   - **파서(parser)**
