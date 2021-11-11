@@ -1,15 +1,12 @@
 ---
-title: "Typescript란?"
-excerpt: 프론트엔드 스터디 타입스크립트 기초편
+title: Typescript란?
+description: 프론트엔드 스터디 타입스크립트 기초편
 slug: 2021-fw-frontend-04
 img: not-yet-generated.png
 datetime: 2021. 11. 11
-
 category: Frontend
 author: 신윤진
 ---
-
-
 
 ### 1. 타입스크립트란 무엇인가?
 
