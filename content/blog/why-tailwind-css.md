@@ -57,6 +57,6 @@ Tailwind의 경우 Responsive 디자인을 위한 미디어쿼리 작성이 매�
 
 
 
-이외에도 Tailwind CSS에는 과하게! 친절한 Documentation과 보다 복잡한 기능들을 간단하게 지원하는(group, group-hover 보고 놀랐어요...) 등의 다양한 장점이 있답니다. 직접 사용해보시면 더욱 와닿으실 거라 생각해요.
+이외에도 Tailwind CSS에는 과하게! 친절한 Documentation과 보다 복잡한 기능들을 간단하게 지원하는(group, group-hover 보고 놀랐어요...) 등의 다양한 장점이 있답니다. 직접 사용해보시면 더욱 와닿으실 거라 생각해요. 더 많은 정보를 위해서는 [공식 문서](https://tailwindcss.com/docs/installation)를 참고해주세요.
 
 다음 포스팅에서는 Nuxt 프로젝트에 Tailwind CSS를 설치하여 사용하는 방법에 대해 알아보도록 할게요.
