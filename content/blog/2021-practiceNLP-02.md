@@ -4,7 +4,7 @@ title: 한국어 형태소 분석 (비지도학습기반)
 description: 실전NLP_두 번째 
 slug: 2021-practiceNLP-02
 img: not-yet-generated.png
-datetime: 2021. 11. 0.
+datetime: 2021. 11. 10.
 category: NLP
 author: 이정윤
 
