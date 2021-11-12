@@ -4,7 +4,7 @@
 
 title: 데안심? 데이터 안심구역🤗
 description: 데이터 안심구역 탐방기!
-slug: 혜민님 작성해주세요~
+slug: DataSafetyzone-review
 img: not-yet-generated.png
 datetime: 2021. 11. 13.
 category: Data Analysis
