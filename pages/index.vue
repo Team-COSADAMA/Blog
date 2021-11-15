@@ -41,7 +41,7 @@
                         <p class="mb-1 md:mb-1.5 text-sm md:text-sm text-gray-400">{{article.category}}</p>
                         <h3 class="mb-1 md:mb-1.5 text-lg md:text-xl font-semibold text-gray-600 transition group-hover:text-blue-500 group-hover:duration-500">{{ article.title }}</h3>
                         <p class="mb-1 md:mb-1.5 text-sm md:text-base text-gray-400 custom-text">{{article.description}}</p>
-                        <p class="text-sm md:text-sm text-gray-400">{{ article.datetime }}</p>
+                        <p class="text-sm md:text-sm text-gray-400">{{ article.datetime }} · {{article.author}}</p>
                     </div>
                   </div>
               </nuxt-link>
