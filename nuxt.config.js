@@ -35,7 +35,7 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'PENIELOGY'
+        content: 'COSADAMA Blog'
       },
       {
         hid: 'twitter:description',
@@ -86,7 +86,12 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      {
+        hid: 'canonical',
+        rel: 'canonical',
+        href: `https://www.blog.cosadama.com`
+      }
     ]
   },
 

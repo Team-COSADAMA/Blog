@@ -41,14 +41,14 @@ export default {
             meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'PENIELOGY' },
+            { hid: 'description', name: 'description', content: 'COSADAMA Blog, Archiving Place for COSADAMA' },
             { name: 'format-detection', content: 'telephone=no' }
             ],
             link: [
                 {
                 hid: 'canonical',
                 rel: 'canonical',
-                href: `https://www.socio.penielcho.com/${this.$route.params.slug}`
+                href: `https://www.blog.cosadama.com/${this.$route.params.slug}`
                 }
             ]
         }
