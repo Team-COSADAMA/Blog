@@ -6,7 +6,7 @@ slug: bigdata-1st
 img: not-yet-generated.png
 datetime: 2021. 11. 11.
 category: Data Analysis
-author: 김정민, 김후정, 박서현, 정예은
+author: 코코넛팀
 
 ---
 
