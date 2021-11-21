@@ -1,8 +1,5 @@
 ---
 
----
----
-
 title: deep-curri-scrapy1
 description: scrapy를 통한 웹크롤링을 다시 복습해보아요!
 slug: deep-curri-scrapy1
