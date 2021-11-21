@@ -1,14 +1,18 @@
 ---
-​---
-title: [커리큘럼 심화]scrapy 톺아보기
+
+---
+---
+
+title: deep-curri-scrapy1
 description: scrapy를 통한 웹크롤링을 다시 복습해보아요!
-slug: [커리큘럼 심화]scrapy 톺아보기
+slug: deep-curri-scrapy1
 img: not-yet-generated.png
 datetime: 2021. 10. 01.
 category: scrapy 
 author: 김윤진
-​---
+
 ---
+
 안녕하세요 여러분!
 저는 지금까지 배웠던 scrapy를 정리하는 시간을 가져보려고 합니다. 
 
@@ -28,7 +32,9 @@ scrapy를 설치하는 방법은 여러가지입니다.
 - [scrapy 웹사이트](https://docs.scrapy.org/en/latest/)에서 다운로드 받을 수 있는 방법이 있습니다. 
 - 더 쉽고 편리한 방법으로는 terminal을 사용하는 겁니다. 편리하게 터미널에 ```pip install scrapy```를 쳐주시면 됩니다. 
 
-<img src="/Users/ddjinny/Documents/programming/Blog-main/static/[커리큘럼 심화]scrapy 톺아보기/1.블로그_1.png" alt="터미널 scrapy 설치" style="zoom:50%;" />
+![scrapy 설치하기](/static/deep-curri-scrapy1/1.블로그_1.png)
+
+
 
 #### 2) scrapy shell 사용 익히기
 
@@ -36,7 +42,11 @@ scrapy shell이 무엇인지 구글링해보면 "The Scrapy shell is **an intera
 
 scrapy shell을 여는 방법은 terminal에 **scrapy shell "크롤링할 웹 주소"**를 입력하는 것입니다. 저는 저희가 4주차 과제로 했었던 지마켓 베스트 상품 주소로 예시를 들어보겠습니다. 
 
-<img src="/Users/ddjinny/Documents/programming/Blog-main/static/[커리큘럼 심화]scrapy 톺아보기/1.블로그_2.png" alt="터미널에서 scrapy shell 열기" style="zoom:50%;" />
+
+
+![scrapy shell 열기](/deep-curri-scrapy1/1.블로그_2.png)
+
+
 
 짜잔! 아주 쉽게 원하는 웹사이트의 scrapy shell 창을 열 수 있습니다!
 
