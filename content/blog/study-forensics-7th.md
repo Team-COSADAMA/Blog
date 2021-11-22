@@ -1,7 +1,7 @@
 ---
 
-title: 디지털 포렌식 4주차 스터디
-description: III. 디지털포렌식(비휘발성) 분석
+title: 디지털 포렌식 4주차 스터디(2)
+description: III. 디지털포렌식(비휘발성) 분석 2-2. 파일시스템(File System) 분석
 slug: study-forensics-7th
 img: not-yet-generated.png
 datetime: 2021. 11. 22.
