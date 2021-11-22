@@ -10,7 +10,7 @@ slug: deep-learning-from-scratch2-1
 
 img: not-yet-generated.png
 
-datetime: 2021.11.12.
+datetime: 2021. 11. 12.
 
 category: NLP
 
@@ -378,7 +378,7 @@ b\\
 c
 \end{bmatrix}
 $$
-  
+
 
 $AB$는 다음과 같이 표현되고
 
@@ -444,7 +444,7 @@ y_3\\
 \vdots
 \end{bmatrix}
 $$
-  
+
 
 **선형 결합인 AB**에 대해 우리가 구해야 할 것은 a, b, c입니다. (a, b, c는 연립방정식에서 **계수**고, 회귀식에서는 **파라미터**입니다.) 결국 우리는 **주어진 변수 $x_n, y_n$와 계수 a, b, c가 선형으로 결합**되어 있는지를 질문 받고 있네요. (결국 **행렬의 곱이 성립하냐는 질문과 같습니다.**)
 
