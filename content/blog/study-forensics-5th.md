@@ -1,6 +1,6 @@
 ---
 
-title: 디지털 포렌식 5주차 스터디
+title: 디지털 포렌식 3주차 스터디
 description: III. 디지털포렌식(비휘발성) 분석
 slug: study-forensics-5th
 img: not-yet-generated.png
