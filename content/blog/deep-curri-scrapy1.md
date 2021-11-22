@@ -4,7 +4,7 @@ title: deep-curri-scrapy1
 description: scrapy를 통한 웹크롤링을 다시 복습해보아요!
 slug: deep-curri-scrapy1
 img: not-yet-generated.png
-datetime: 2021. 10. 01.
+datetime: 2021.10.01.
 category: scrapy 
 author: 김윤진
 
