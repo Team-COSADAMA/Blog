@@ -4,7 +4,7 @@ title: 임베딩 전반적으로 이해하기
 description: 실전NLP_세 번째 
 slug: 2021-practiceNLP-03
 img: not-yet-generated.png
-datetime: 2021. 11.22.
+datetime: 2021. 11. 22.
 category: NLP
 author: 이정윤
 
