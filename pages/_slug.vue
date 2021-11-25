@@ -8,7 +8,7 @@
 
         <p class="text-base md:text-lg text-gray-400 text-center mb-2">{{article.category}}</p>
         <h1 class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-2 text-2xl md:text-4xl text-center font-semibold text-gray-700">{{article.title}}</h1>
-        <p class="text-base md:text-lg text-gray-500 text-center mb-6 md:mb-10">{{article.datetime}} · by {{article.author}}</p>
+        <p class="text-base md:text-lg text-gray-500 text-center mb-6 md:mb-10">{{formatDate(article.createdAt)}} · by {{article.author}}</p>
 
         <nuxt-content :document="article" class="prose max-w-3xl custom-text px-6"/>
 
@@ -25,11 +25,17 @@ export default {
 
         const [prev, next] = await $content('blog')
         .only(['title', 'slug'])
-        .sortBy('datetime', 'desc')
+        .sortBy('createdAt', 'asc')
         .surround(params.slug)
         .fetch()
 
         return { article, prev, next }
+    },
+    methods: {
+        formatDate(date) {
+        const options = { year: 'numeric', month: 'long', day: 'numeric' }
+        return new Date(date).toLocaleDateString('ko', options)
+        }
     },
 
     head() {

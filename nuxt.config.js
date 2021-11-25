@@ -114,6 +114,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    //https://github.com/dword-design/nuxt-content-git
+    'nuxt-content-git',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
