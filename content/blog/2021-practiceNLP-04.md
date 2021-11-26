@@ -1,4 +1,4 @@
-﻿---
+---
 
 title: 한국어 임베딩 (단어 수준) 
 description: 실전NLP_네 번째 
@@ -12,7 +12,7 @@ author: 이정윤
 
 ## 🌊 Introduction
 
-이전 스터디에서는 임베딩의 전반적인 개념과 여러가지 종류들을 가볍게 살펴보았다. 이번에는 임베딩 기법 중 '단어'를 기반으로 만들어진 임베딩 기법에 대패 공부해보려 한다. 
+이전 스터디에서는 임베딩의 전반적인 개념과 여러가지 종류들을 가볍게 살펴보았다. 이번에는 임베딩 기법 중 '단어'를 기반으로 만들어진 임베딩 기법에 대해 공부해보려 한다. 
 
 우선 <u>단어기반 임베딩 기법</u>은 각각의 벡터에 해당 단어의 문맥적 의미를 함축한다. 따라서 단어의 형태가 동일하면 같은 단어로 인식하여 동음이의어(발음하기는 같지만 뜻이 다른 단어)나 문맥에 따른 다른 의미를 분간하기 어렵다는 단점이 있다. 
 
@@ -76,8 +76,8 @@ model.wv.vectors.shape
 ```
 결과는 (6573, 100) 이다. 총 6573개의 단어가 있고 100차원이라는 것을 의미한다. 
 
-3. 학습결과 확인하기 
-![Word2Vec](/practiceNLP/nlp-3.png)
+3. 학습결과 확인하기     
+![Word2Vec](/practiceNLP/nlp-3.png)    
 몇 개 단어들을 예시로 넣어보면 위와 같은 결과가 도출된다. 
 
 참고사이트: [Word2Vec을 활용해 문장을 벡터로 변환하기](https://too-march.tistory.com/16), [Word2Vec을 이용한 '깃대종'단어간 유사도 측정](https://blog.daum.net/geoscience/1414)
@@ -120,14 +120,13 @@ GloVe를 사용하는 코드 역시 길진 않다. 파라미터의 의미는 다
 * no_threads: 프로세스 내에서 실행되는 흐름단위의 개수(멀트스레드. 병렬실행) 
 * verbose: 학습진행상황을 보여줄것인지 (1=True, 0=False)
 
-4. 학습결과 확인하기 
+4. 학습결과 확인하기     
 ![GloVe](/practiceNLP/nlp-3.png)
 몇 개 단어들을 예시로 넣어보면 위와 같은 결과가 도출된다. 
 
 두 결과 모두 연관성있는 단어가 잘 도출되기도 하고, 그렇지 않기도 하다. 이는 우선 전처리를 할 때 불용어(stopwords)를 더 잘 제거해줘야 하며, 설정하는 파라미터들을 더 정교하게 처리하면 개선될 수 있다. 
 
 참고사이트: [GloVe Embedding](https://jxnjxn.tistory.com/49), [Learning Rate](https://pythonkim.tistory.com/23), [GloVe, word representation](https://lovit.github.io/nlp/representation/2018/09/05/glove/)
-
 참고도서: 한국어임베딩(이기창, 2019)   
 
 ##  🌊 Future tasks
