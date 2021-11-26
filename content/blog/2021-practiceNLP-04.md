@@ -3,8 +3,6 @@
 title: 한국어 임베딩 (단어 수준) 
 description: 실전NLP_네 번째 
 slug: 2021-practiceNLP-04
-img: not-yet-generated.png
-datetime: 2021. 11. 26.
 category: NLP
 author: 이정윤
 
