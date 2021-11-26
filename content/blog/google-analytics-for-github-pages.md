@@ -6,7 +6,7 @@ category: 웹개발
 author: 조용주
 ---
 
-글에 들어가기에 앞서, Google Analytics 트랙킹 ID 발급받는 법을 모른다면 [관련 포스팅](https://www.blog.cosadama.com/google-analytics-tracking-id)을 먼저 읽어주시길 바란다.
+글에 들어가기에 앞서, Google Analytics 트랙킹 ID 발급받는 법을 모른다면 [관련 포스팅](https://www.blog.cosadama.com/google-analytics-tracking-id)을 먼저 읽어주시길 바란다. 또한 본 포스팅은 Nuxt 프레임워크로 개발된 정적 웹사이트를 기준으로 한다.
 
 Netlify를 통해 웹사이트를 배포할 경우, 설정을 통해 프로젝트 개별 파일에 코드를 직접 작성하지 않고도 온라인 빌드 시 Head나 Body 이전에 Google Analytics 트랙킹용 Snippet 코드를 삽입할 수 있다. 반면 GitHub Pages를 통한 배포의 경우 yml 파일을 통한 환결설정에 기반해 gh actions를 통해 빌드가 이뤄지기 때문에 파일 자체에 코드를 적지 않고 온라인 빌드 도중 코드를 삽입하기는 쉽지 않다. 
 
