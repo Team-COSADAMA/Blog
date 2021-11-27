@@ -1,4 +1,3 @@
-```
 ---
 
 title: 교통·문화·통신 빅데이터 플랫폼 융합 분석 경진대회 내용
@@ -10,7 +9,6 @@ category: Data Analysis
 author: 코코넛 팀
 
 ---
-```
 
 # 목차
 
@@ -250,10 +248,10 @@ tollgate20_jeonju_month.rename(columns = {'총교통량': '20년교통량'}, inp
 station19_20_jeonju_off_month = pd.concat([station19_jeonju_off_month, station20_jeonju_off_month], axis = 1)
 station19_20_jeonju_off_month.plot(kind='bar',title="19년,20년 월별 전주역에 하차한 인원 수", rot=0)
 plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
-plt.show()
+plt.show() 
 ```
 
-![월별 전주역 이용자수](D:\중앙대 포탈\공모전\이미지 모음\(1)월별 전주역 이용자 수.PNG) 
+![월별 전주역 이용자수](C:\Users\PJY\Documents\GitHub\Blog\static\coco-nut\(1)monthly_station_usage.png)
 
 2019년과 2020년에 전주역에서 하차한 인원 수를 비교 분석한 결과,
 코로나19 확산이 시작된 1월을 제외하면, 2020년의 모든 기간에서 **전년도에 비하여 전주역 이용률이 감소**하였다는 것을 확인할 수 있었습니다.
@@ -266,7 +264,7 @@ plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
 plt.show()
 ```
 
-![월별 전주역 이용자수](D:\중앙대 포탈\공모전\이미지 모음\(2)월별 전주지역 근처 톨게이트 교통량.PNG) 
+ ![월별 전주역 이용자수](C:\Users\PJY\Documents\GitHub\Blog\static\coco-nut\(2)monthly_tollgate_traffic_volume.png)
 
 또한 2019년과 2020년의 전주지역 근처 톨게이트 교통량의 변화를 월별로 분석한 결과 역시, 2020년 1월을 제외한 모든 달에서 2019년도에 비해 전주지역 근처 톨게이트 이용률이 **감소**하였다는 것을 확인할 수 있었습니다.
 여기서 전주시 근처 톨게이트는 '전주', '동전주', '서전주', '완주' 4군데로 정의했습니다.
@@ -330,7 +328,7 @@ folium.Marker(location=[35.8355017190649, 127.17462332831731], popup='아중대�
 mapping
 ```
 
-![전주시 자전거 대여소](D:\중앙대 포탈\공모전\이미지 모음\(3).PNG)
+![전주시 자전거 대여소](C:\Users\PJY\Documents\GitHub\Blog\static\coco-nut\(3)map_1.PNG)
 
 전주시 내 자전거 대여소는 총 **7개**이며, 전주한옥마을과 번화가 등이 위치한 풍남동 일대에 **밀집**되어 있습니다.
 하지만 그 외의 지역, 특히 전주의 서쪽 지역은 자전거 대여소가 한 곳도 없는 것을 볼 수 있습니다.
@@ -477,7 +475,7 @@ sns.barplot(x='관광지', y='총계', data=tour21)
 plt.show()
 ```
 
-![주요관광지점 입장객 순위](D:\중앙대 포탈\공모전\이미지 모음\(4)주요관관지점 입장객 순위.png)
+![주요관광지점 입장객 순위](C:\Users\PJY\Documents\GitHub\Blog\static\coco-nut\(4)key_attractions_ranking.png)
 
 자전거 여행객을 유치하려면 주요관광지점 근처에 자전거대여소가 있어야 할 것입니다.
 기존의 자전거대여소의 위치가 관광수요를 잘 반영하고 있는지 확인해보겠습니다.
@@ -511,7 +509,7 @@ folium.Marker(location=[35.8355017190649, 127.17462332831731], popup='아중대�
 mapping
 ```
 
-![전주시 주요관광지점과 자전거대여소 분포](D:\중앙대 포탈\공모전\이미지 모음\(5).PNG)
+![전주시 주요관광지점과 자전거대여소 분포](C:\Users\PJY\Documents\GitHub\Blog\static\coco-nut\(5)map_2.PNG)
 
 전주시의 주요 관광지점과 자전거대여소의 분포를 보면 전주시의 **중심부**에 해당하는 지역과 **서쪽** 지역이 관광 수요에 비해 자전거대여소가 부족한 것을 알 수 있습니다.
 예를 들어 **한국도로공사수목원**이나 **스파라쿠아 전주온천** 등은 지속적으로 입장객이 많은 관광지임에도 그 근처에 자전거대여소가 없습니다.
@@ -535,7 +533,7 @@ plt.title('행정동별 현지인 평균 관광객수 (19,20,21년 3~5월)')
 plt.show()
 ```
 
-![행정동별 현지인 평균 관광객수](D:\중앙대 포탈\공모전\이미지 모음\(6)행정동별 현지인 평균 관광객수.png)
+![행정동별 현지인 평균 관광객수](C:\Users\PJY\Documents\GitHub\Blog\static\coco-nut\(6)local_average.png)
 
 ```
 #외지인(외국인 포함)관광객들을 실제로 풍남동을 많이 찾을까?
@@ -552,7 +550,7 @@ rcParams['figure.figsize'] = (20,12)
 plt.show()
 ```
 
-![행정동별 외지인 평균 관광객수](D:\중앙대 포탈\공모전\이미지 모음\(7)행정동별 외지인 평균 관광객수.png)
+![행정동별 외지인 평균 관광객수](C:\Users\PJY\Documents\GitHub\Blog\static\coco-nut\(7)outsider_average.png)
 
 확인해본 결과, 현지인이 가장 많이 찾는 지역은 **덕진동**이고 그 다음은 **서신동**,**중앙동**입니다.
 외지인들이 가장 많이 찾는 곳 또한 **덕진동**이지만 다음으로 많이 찾는곳은 **풍남동**,**중앙동**입니다.
@@ -597,7 +595,7 @@ for i in hotel_j.index:
 mapping
 ```
 
-![전주시 주요관광지점과 자전거대여소, 숙박시설 분포](D:\중앙대 포탈\공모전\이미지 모음\(8).PNG)
+![전주시 주요관광지점과 자전거대여소, 숙박시설 분포](C:\Users\PJY\Documents\GitHub\Blog\static\coco-nut\(8)map_3.PNG)
 
 숙박시설도 자전거대여소와 마찬가지로 풍진동 일대에 밀집되어 있습니다.
 그래서 **풍남동** 일대 숙박시설들은 대여소들과 접근성이 좋지만 **효자동**, **서신동**, **인후동** 지역의 접근성은 낮습니다.
@@ -612,9 +610,7 @@ img = Image.open('위치선정1.png')
 display(img)
 ```
 
-![관광수요 위치선정(빨강), 숙박시설 위치선정(검정)](D:\중앙대 포탈\공모전\이미지 모음\(9).png)
-
-
+![관광수요 위치선정(빨강), 숙박시설 위치선정(검정)](C:\Users\PJY\Documents\GitHub\Blog\static\coco-nut\(9)map_4.png)
 
 ## 최종 자전거 대여소 입지 선정 및 제언
 
@@ -631,7 +627,7 @@ img = Image.open('위치선정2.png')
 display(img)
 ```
 
-![최종 입지선정](D:\중앙대 포탈\공모전\이미지 모음\(10).png)
+![최종 입지선정](C:\Users\PJY\Documents\GitHub\Blog\static\coco-nut\(10)map_5.png)
 
 추가적으로 제언하자면 자전거대여소의 운영시간 확장 조정 및 버스정류장과 기차역 등 대중교통시설에 **자전거 거치대**를 설치 하는 정책이 필요하다고 생각합니다.
 이동의 새로운 트렌드 중 하나가 바로 **‘라스트 마일 모빌리티(Last Mile Mobility)’**입니다.
