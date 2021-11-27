@@ -75,7 +75,7 @@ model.wv.vectors.shape
 결과는 (6573, 100) 이다. 총 6573개의 단어가 있고 100차원이라는 것을 의미한다. 
 
 3. 학습결과 확인하기     
-![Word2Vec](/practiceNLP/nlp-3.png)    
+![Word2Vec](/practiceNLP/Word2Vec.png)    
 몇 개 단어들을 예시로 넣어보면 위와 같은 결과가 도출된다. 
 
 참고사이트: [Word2Vec을 활용해 문장을 벡터로 변환하기](https://too-march.tistory.com/16), [Word2Vec을 이용한 '깃대종'단어간 유사도 측정](https://blog.daum.net/geoscience/1414)
@@ -119,7 +119,7 @@ GloVe를 사용하는 코드 역시 길진 않다. 파라미터의 의미는 다
 * verbose: 학습진행상황을 보여줄것인지 (1=True, 0=False)
 
 4. 학습결과 확인하기     
-![GloVe](/practiceNLP/nlp-3.png)
+![GloVe](/practiceNLP/GloVe.png)
 몇 개 단어들을 예시로 넣어보면 위와 같은 결과가 도출된다. 
 
 두 결과 모두 연관성있는 단어가 잘 도출되기도 하고, 그렇지 않기도 하다. 이는 우선 전처리를 할 때 불용어(stopwords)를 더 잘 제거해줘야 하며, 설정하는 파라미터들을 더 정교하게 처리하면 개선될 수 있다. 
