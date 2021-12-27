@@ -1,7 +1,3 @@
-
-
-
-
 ---
 
 title: deep-curri-scrapy3
