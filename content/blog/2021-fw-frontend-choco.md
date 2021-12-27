@@ -1,7 +1,7 @@
 ---
 title: 2021fw 프론트엔드 스터디 후기
 description: 2021년 하반기 프론트엔드 스터디 후기 들어보지 않을래요?
-slug: 2021-fw-frontend-choco.md
+slug: 2021-fw-frontend-choco
 category: Frontend
 author: 신혜린
 ---
