@@ -20,10 +20,10 @@
 <script>
 export default {
     async asyncData({ $content, params }) {
-        const article = await $content('blog', params.slug)
+        const article = await $content('articles', params.slug)
         .fetch();
 
-        const [prev, next] = await $content('blog')
+        const [prev, next] = await $content('articles')
         .only(['title', 'slug'])
         .sortBy('createdAt', 'asc')
         .surround(params.slug)
@@ -65,5 +65,11 @@ export default {
 <style scpoed>
 .custom-text{
     word-break: keep-all;
+}
+code::before {
+    content: none !important;
+}
+code::after {
+    content: none !important;
 }
 </style>

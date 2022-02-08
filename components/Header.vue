@@ -1,8 +1,8 @@
 <template>
-    <div class="w-full p-3 border-b md:border-b border-gray-200">
-        <div class="max-w-4xl mx-auto flex items-center justify-between">
+    <div class="w-full p-3 md:p-5 border-b md:border-b border-gray-200">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
 
-            <div class="ml-1.5 md:ml-0">
+            <div class="">
                 <nuxt-link to="/">
                     <HeaderLogo />
                 </nuxt-link>
