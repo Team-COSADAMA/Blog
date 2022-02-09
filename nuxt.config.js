@@ -11,48 +11,17 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
-    ],
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'COSADAMA Blog: Welcome to CSDM Tech Blog!' },
+      { hid: 'description', name: 'description', content: '코사다마의 지식과 경험을 나누는 공간, 코사다마 블로그입니다.' },
       { name: 'format-detection', content: 'telephone=no' },
-      // Twitter
-      // Test on: https://cards-dev.twitter.com/validator
       {
-        hid: 'twitter:card',
+        hid: 't-type',
         name: 'twitter:card',
         content: 'summary_large_image'
       },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@ChoPeniel' },
-      {
-        hid: 'twitter:url',
-        name: 'twitter:url',
-        content: 'https://www.blog.cosadama.com'
-      },
-      {
-        hid: 'twitter:title',
-        name: 'twitter:title',
-        content: 'COSADAMA Blog'
-      },
-      {
-        hid: 'twitter:description',
-        name: 'twitter:description',
-        content:
-          'COSADAMA Blog: Welcome to CSDM Tech Blog!'
-      },
-      {
-        hid: 'twitter:image',
-        name: 'twitter:image',
-        content: 'https://www.blog.cosadama.com/not-yet-generated.png'
-      },
-
       // Open Graph
       // Test on: https://developers.facebook.com/tools/debug/
       { hid: 'og:site_name', property: 'og:site_name', content: 'COSADAMA Blog' },
-      { hid: 'og:type', property: 'og:type', content: 'Blog' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:url',
         property: 'og:url',
@@ -67,31 +36,26 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'COSADAMA Blog: Welcome to CSDM Tech Blog!'
+          '코사다마의 지식과 경험을 나누는 공간, 코사다마 블로그입니다.'
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://www.blog.cosadama.com/not-yet-generated.png'
+        content: 'https://raw.githubusercontent.com/Team-COSADAMA/Blog/main/static/COSADAMA_Blog_Opengraph.png'
       },
       {
         hid: 'og:image:secure_url',
         property: 'og:image:secure_url',
-        content: 'https://www.blog.cosadama.com/not-yet-generated.png'
+        content: 'https://raw.githubusercontent.com/Team-COSADAMA/Blog/main/static/COSADAMA_Blog_Opengraph.png'
       },
       {
         hid: 'og:image:alt',
         property: 'og:image:alt',
-        content: 'COSADAMA Blog'
+        content: 'COSADAMA Blog Main Image'
       }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-      {
-        hid: 'canonical',
-        rel: 'canonical',
-        href: `https://www.blog.cosadama.com`
-      }
     ]
   },
 

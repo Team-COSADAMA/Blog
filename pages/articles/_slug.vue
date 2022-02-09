@@ -1,10 +1,5 @@
 <template>
     <div class="related max-w-3xl mx-auto py-10 md:py-16">
-        <SocialHead
-        :title="article.title"
-        :description="article.description"
-        :image="article.img"
-        />
 
         <p class="text-base md:text-lg text-gray-400 text-center mb-2">{{article.category}}</p>
         <h1 class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-2 text-2xl md:text-4xl text-center font-semibold text-gray-700">{{article.title}}</h1>
@@ -47,16 +42,43 @@ export default {
             meta: [
             { charset: 'utf-8' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            { hid: 'description', name: 'description', content: 'COSADAMA Blog, Archiving Place for COSADAMA' },
-            { name: 'format-detection', content: 'telephone=no' }
+            {
+                hid: 't-type',
+                name: 'twitter:card',
+                content: 'summary_large_image'
+            },
+            {
+            hid: 'og-type',
+            property: 'og:type',
+            content: 'website'
+            },
+            {
+            hid: 'og:title',
+            property: 'og:title',
+            content: this.article.title
+            },
+            {
+            hid: 'og:image',
+            property: 'og:image',
+            // content: this.article.img
+            content: `https://raw.githubusercontent.com/Team-COSADAMA/Blog/main/static/${this.article.slug}/${this.article.img}`
+            },
+            {
+            hid: 'og:image:secure_url',
+            property: 'og:image:secure_url',
+            content: `https://raw.githubusercontent.com/Team-COSADAMA/Blog/main/static/${this.article.slug}/${this.article.img}`
+            },
+            {
+            hid: 'og:image:alt',
+            property: 'og:image:alt',
+            content: 'article image'
+            },
+            {
+            hid: 'og:url',
+            name: 'og:url',
+            content: `https://www.blog.cosadama.com/articles/${this.$route.params.slug}`
+            },
             ],
-            link: [
-                {
-                hid: 'canonical',
-                rel: 'canonical',
-                href: `https://www.blog.cosadama.com/${this.$route.params.slug}`
-                }
-            ]
         }
     },
 }
