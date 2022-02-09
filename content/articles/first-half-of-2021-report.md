@@ -3,10 +3,9 @@
 title: 2021 상반기 활동 보고
 description: 2021년 코사다마 상반기 활동에 대한 보고입니다. 
 slug: first-half-of-2021-report
-img: not-yet-generated.png
-datetime: 2021. 09. 09.
-category: Report
+category: General
 author: 신윤진
+img: 5.png
 
 ---
 

@@ -3,9 +3,7 @@
 title: 바닐라 JS 기초 스터디
 description: 프론트엔트 스터디 첫번째 포스팅
 slug: 2021-fw-frontend-01
-img: not-yet-generated.png
-datetime: 2021. 09. 30.
-category: Frontend
+category: Front-End
 author: 신윤진
 
 ---

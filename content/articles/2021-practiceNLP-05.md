@@ -3,7 +3,7 @@
 title: 한국어 임베딩 (문장 수준) 
 description: 실전NLP_다섯 번째
 slug: 2021-practiceNLP-05
-category: NLP
+category: Deep-Learning
 author: 이정윤
 
 ---

@@ -3,9 +3,7 @@
 title: 바닐라 JS 챌린지 (ToDo list, Weather)
 description: 프론트엔트 스터디 TIL
 slug: 2021-fw-frontend-03
-img: not-yet-generated.png
-datetime: 2021. 11. 10.
-category: Frontend
+category: Front-End
 author: 신혜린
 
 ---

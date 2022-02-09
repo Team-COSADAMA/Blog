@@ -3,7 +3,7 @@
 title: 한국어 임베딩 (단어 수준) 
 description: 실전NLP_네 번째 
 slug: 2021-practiceNLP-04
-category: NLP
+category: Deep-Learning
 author: 이정윤
 
 ---

@@ -2,14 +2,15 @@
 title: 2021fw 프론트엔드 스터디 후기
 description: 2021년 하반기 프론트엔드 스터디 후기 들어보지 않을래요?
 slug: 2021-fw-frontend-choco
-category: Frontend
+category: Front-End
 author: 신혜린
+img: vanillaJS.png
 ---
 
 ### 바닐라JS 2주 챌린지 💻
 ---
 * #### 바닐라JS란? 💡
-![바닐라JS](./2021-fw-frontend-choco/vanillaJS.png)
+![바닐라JS](/2021-fw-frontend-choco/vanillaJS.png)
 < HTML, CSS, JS에 대한 기초적인 이해도를 가진 수강생들을 대상으로 JS를 활용한 프론트엔드 빌드를 가르치는 강의 >
 
 
@@ -21,7 +22,7 @@ author: 신혜린
 >
 * [바닐라 JS 챌린지 (ToDo list, Weather)](https://www.blog.cosadama.com/2021-fw-frontend-03)
 
-![바닐라JS 챌린지 Certificate](./2021-fw-frontend-choco/vanillaJScertificate.png)
+![바닐라JS 챌린지 Certificate](/2021-fw-frontend-choco/vanillaJScertificate.png)
 
 ---
 * #### 챌린지를 진행하며 좋았던 점  
@@ -43,7 +44,7 @@ author: 신혜린
 * #### 아쉬웠던 점
 아무래도 아직 css 지식이 부족한 채로 강의를 수강해서 마지막에 제 웹 사이트를 예쁘게 꾸미지 못해서 슬펐습니다 ㅠㅠ
 
-![css지식이 중요한 이유](./2021-fw-frontend-choco/vanillaJSproject.png)
+![css지식이 중요한 이유](/2021-fw-frontend-choco/vanillaJSproject.png)
 
 구현하고자 했던 현재 시간 및 내 위치 기반 날씨, 그리고 투두리스트 기능들은 잘 돌아가지만.. css 지식이 현저히 부족했던 터라 시각적인 결과물은 허접해 보이죠 🥲
 

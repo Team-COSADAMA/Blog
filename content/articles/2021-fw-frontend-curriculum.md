@@ -2,7 +2,7 @@
 title: 프론트엔드 vs 백엔드
 description: 프론트엔드와 백엔드의 차이 및 커리큘럼을 알아봅시다!
 slug: 2021-fw-frontend-curriculum
-category: Frontend
+category: Front-End
 author: 신혜린
 ---
 

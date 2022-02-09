@@ -3,9 +3,7 @@
 title: 20대 여성 자살률 증가의 원인 분석
 description: 코로나19 국면에서 유독 20대 여성의 자살률이 급증하고 있다. 20대 여성의 자살률의 현황과 자살률이 증가하는 사회적 원인을 데이터로 탐색해보았다.
 slug: coco-2021-suicide-rate
-img: not-yet-generated.png
-datetime: 2021. 09. 26.
-category: Events
+category: Data-Analysis
 author: 강동용, 김윤진
 
 ---

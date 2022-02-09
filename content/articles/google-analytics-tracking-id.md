@@ -2,8 +2,9 @@
 title: Google Analytics 추적 ID 발급받기
 description: 구글 애널리틱스 추적 ID 발급방법에 대해 알아보자.
 slug: google-analytics-tracking-id
-category: 웹개발
+category: Front-End
 author: 조용주
+img: 07.png
 ---
 
 처음 웹사이트를 만들고 Google Analytics를 적용하는데 Tracking ID 발급 설명 없이 바로 코드로 넘어가 당황했던 기억이 있다. 새로운 웹사이트를 배포하며 GA를 설정하는 김에 해당 기억을 되살려 추적 ID 발급받는 과정을 캡쳐하여 공유한다. 본인처럼 헤매는 분들이 없기를!

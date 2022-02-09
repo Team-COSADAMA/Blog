@@ -3,10 +3,10 @@
 title: Machine Learning(Harvard)
 description: CS109강의로 머신러닝 공부
 slug: ml-2021-harvard1
-img: not-yet-generated.png
 datetime: 2021. 10. 20.
-category: ML
+category: Machine-Learning
 author: 나다경
+img: g1.png
 
 ---
 

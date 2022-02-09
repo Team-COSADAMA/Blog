@@ -3,8 +3,9 @@
 title: 디지털 포렌식 스터디 후기
 description: 디지털 포렌식에 대해 공부하고 실습해본 후기!
 slug: study-forensics-last
-category: 디지털 포렌식
+category: Data-Analysis
 author: 유혜정
+img: "발표자료1.png"
 
 ---
 

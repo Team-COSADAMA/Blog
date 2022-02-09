@@ -1,9 +1,8 @@
 ---
-
 title: 왜 Typescript를 써야할까?
 description: 프론트엔드 스터디 타입스크립트 기초편
 slug: 2021-fw-frontend-05
-category: Frontend
+category: Front-End
 author: 신윤진
 ---
 

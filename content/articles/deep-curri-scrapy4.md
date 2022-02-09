@@ -1,10 +1,11 @@
 ---
 
-title: deep-curri-scrapy4
+title: 스크래이피 톺아보기 4
 description: scrapy를 통한 웹크롤링을 다시 복습해보아요!
 slug: deep-curri-scrapy4
-category: scrapy 
+category: Data-Analysis
 author: 김윤진
+img: 4.블로그_1.png
 
 ---
 
@@ -24,7 +25,7 @@ scrapy crawling의 마지막 포스팅이에요!!
 
 우선 vs code의 화면을 볼까요? 
 
-<img src="/deep-curri-scrapy4/4.블로그_1.png" style="zoom:50%;" />
+![img](/deep-curri-scrapy4/4.블로그_1.png)
 
 저희가 설정해주었던 **pipelines.py, settings.py, items.py, 그리고 gg_best.py**까지 잘 열어 둡시다. 
 
@@ -38,7 +39,7 @@ scrapy crawling의 마지막 포스팅이에요!!
 
 혹시 잊으신 분들을 위해,
 
-<img src="/deep-curri-scrapy4/4.블로그_2.png" style="zoom:50%;" />
+![img](/deep-curri-scrapy4/4.블로그_2.png)
 
 scrapy shell을 여는 방법은 **terminal**에 **scrapy shell "접속하고자하는 웹사이트주소"**를 입력하면 됐었습니다. 저희는 지마켓베스트 웹사이트니까 "http://corners.gmarket.co.kr/Bestsellers" 이 주소를 넣어주면 되겠죠?
 
@@ -59,7 +60,7 @@ response.css('div.gbest-cate > ul.by-group > li > a::text').getall()
 
 이 명령어를 터미널 scrapy shell에 입력해 볼까요?
 
-<img src="/deep-curri-scrapy4/4.블로그_3.png" style="zoom:50%;" />
+![img](/deep-curri-scrapy4/4.블로그_3.png)
 
 짜잔! Input으로 명령어를 넣어줬더니 Output으로 지마켓베스트에 있는 메인카테고리 리스트가 그대로 텍스트만 뽑혀서 출력됐어요. 그렇다면 이 명령어는 문제가 없다는 걸 알 수 있겠네요!
 
@@ -97,11 +98,11 @@ scrapy crawl gg_best -o gg_best.csv -t csv
 
 심지어 같은 작업하던 같은 디렉토리에 뿅하고 생겨납니다. 제가 한번 해볼게요.
 
-<img src="/static/deep-curri-scrapy4/4.블로그_4.png" style="zoom:50%;" />
+![img](/deep-curri-scrapy4/4.블로그_4.png)
 
 그러면 같은 디렉토리에 두구두구
 
-<img src="/deep-curri-scrapy4/4.블로그_5.png" style="zoom:50%;" />
+![img](/deep-curri-scrapy4/4.블로그_5.png)
 
 😭😭😭😭😭😭😭😭😭😭😭
 
@@ -109,7 +110,7 @@ scrapy crawl gg_best -o gg_best.csv -t csv
 
 한번 파일을 열어볼까요?
 
-<img src="/deep-curri-scrapy4/4.블로그_6.png" style="zoom:50%;" />
+![img](/deep-curri-scrapy4/4.블로그_6.png)
 
 휴~~~~ 잘 크롤링 되어 csv파일까지 저장되었네요!
 
@@ -120,6 +121,4 @@ scrapy crawl gg_best -o gg_best.csv -t csv
 길고 지난한 과정을 거쳐서 다시 웹크롤링을 복습해보았는데요, scrapy 공부했던 걸 잊지 않고 혹시 기억이 가물가물해질 때 즈음에 이 포스팅을 보며 다시 코딩력을 길러봅시다! 
 
 지금까지 포스팅을 따라와주신 분들 너무 수고 많으셨어요❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥❤️‍🔥
-
-***
 

@@ -3,9 +3,9 @@
 title: 가장 쉽고 아름다운 CSS 프레임워크, Tailwind CSS
 description: 가장 핫한 CSS 프레임워크인 Tailwind CSS, 무엇이 좋을까요?
 slug: why-tailwind-css
-datetime: 2021. 11. 12.
-category: 웹개발
+category: Front-End
 author: 조용주
+img: 06.png
 
 ---
 

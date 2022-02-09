@@ -3,9 +3,7 @@
 title: 디지털 포렌식 4주차 스터디(1)
 description: III. 디지털포렌식(비휘발성) 분석 2-1 디지털증거 무결성 분석
 slug: study-forensics-6th
-img: not-yet-generated.png
-datetime: 2021. 11. 22.
-category: 디지털 포렌식
+category: Data-Analysis
 author: 최예지
 
 ---

@@ -5,10 +5,9 @@
 title: 데안심? 데이터 안심구역🤗
 description: 데이터 안심구역 탐방기!
 slug: DataSafetyZone-review
-img: not-yet-generated.png
-datetime: 2021. 11. 13.
-category: Data Analysis
+category: Data-Analysis
 author: 김가인, 송혜민, 안지은
+img: 3.png
 
 
 

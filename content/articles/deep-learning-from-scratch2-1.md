@@ -8,13 +8,11 @@ description: 선형, 비선형 개념을 되짚고, 신경망 학습과정을 �
 
 slug: deep-learning-from-scratch2-1
 
-img: not-yet-generated.png
-
-datetime: 2021. 11. 12.
-
-category: NLP
+category: Deep-Learning
 
 author: 정 찬
+
+img: linear_regression.png
 
 
 
@@ -38,7 +36,7 @@ author: 정 찬
 
 입력층 ->  은닉층 -> 출력층 이렇게 이어지고, 
 
-![Colored_neural_network]('deep-learning-from-scratch2-1/Colored_neural_network.png')
+![Colored_neural_network](/deep-learning-from-scratch2-1/Colored_neural_network.png)
 
 
 
@@ -402,7 +400,7 @@ $$
 
   
 
-![linear_regression](./deep-learning-from-scratch2-1/linear_regression.png)
+![linear_regression](/deep-learning-from-scratch2-1/linear_regression.png)
 
   
 
@@ -452,13 +450,13 @@ $$
 
 딥러닝에서 선형성을 생각해 보면 계수 즉, **노드와 가중치가 선형 결합의 관계에 있을 때** 선형모델입니다. 
 
-![dl_linear](./deep-learning-from-scratch2-1/dl_linear.png)
+![dl_linear](/deep-learning-from-scratch2-1/dl_linear.png)
 
 
 
   
 
-![dl_linear_eg1](./deep-learning-from-scratch2-1/dl_linear_eg1.png)
+![dl_linear_eg1](/deep-learning-from-scratch2-1/dl_linear_eg1.png)
 
 출처: [https://www.youtube.com/watch?v=umiqnfQxlac&t=133s](https://www.youtube.com/watch?v=umiqnfQxlac&t=133s)
 
@@ -480,7 +478,7 @@ $$
 
   
 
-![dl_non_linear](./deep-learning-from-scratch2-1/dl_non_linear.png)
+![dl_non_linear](/deep-learning-from-scratch2-1/dl_non_linear.png)
 
   
 
@@ -533,10 +531,6 @@ $$
   
 
 출처: [https://www.youtube.com/watch?v=umiqnfQxlac&t=133s](https://www.youtube.com/watch?v=umiqnfQxlac&t=133s)
-
-  
-
-[](http://www.howl.or.kr/?xn_content=8467)
 
 
 
@@ -602,7 +596,7 @@ def step_function(x):
     	return 0
 ```
 
-![stair_function](./deep-learning-from-scratch2-1/stair_function.png)
+![stair_function](/deep-learning-from-scratch2-1/stair_function.png)
 
 출처: https://snowdeer.github.io/machine-learning/2018/01/04/activation-function/
 
@@ -647,7 +641,7 @@ plt.show()
 
   
 
-![sigmoid](./deep-learning-from-scratch2-1/sigmoid.png)
+![sigmoid](/deep-learning-from-scratch2-1/sigmoid.png)
 
 출처: https://snowdeer.github.io/machine-learning/2018/01/04/activation-function/
 
@@ -687,7 +681,7 @@ def relu():
 
 
 
-![relu_function](./deep-learning-from-scratch2-1/relu_function.png)
+![relu_function](/deep-learning-from-scratch2-1/relu_function.png)
 
 ​       
 
@@ -695,7 +689,7 @@ def relu():
 
 
 
-![sigmoid_output](./deep-learning-from-scratch2-1/sigmoid_output.png)
+![sigmoid_output](/deep-learning-from-scratch2-1/sigmoid_output.png)
 
 
 

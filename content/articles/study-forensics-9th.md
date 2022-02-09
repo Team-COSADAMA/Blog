@@ -3,7 +3,7 @@
 title: 디지털 포렌식 4주차 스터디(4)
 description: III. 디지털포렌식(비휘발성) 분석 2-4. MFT&LogFile 분석
 slug: study-forensics-9th
-category: 디지털 포렌식
+category: Data-Analysis
 author: 유혜정
 
 ---

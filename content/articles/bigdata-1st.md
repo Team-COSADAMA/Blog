@@ -3,9 +3,7 @@
 title: 교통·문화·통신 빅데이터 플랫폼 융합 분석 경진대회 후기
 description: DACON에서 주관하는 교통·문화·통신 빅데이터 플랫폼 융합 분석 경진대회에 참가하였고 현재 진행상황과 팀원들이 프로젝트를 하며 느낀 점을 정리했습니다.
 slug: bigdata-1st
-img: not-yet-generated.png
-datetime: 2021. 11. 11.
-category: Data Analysis
+category: Data-Analysis
 author: 코코넛팀
 
 ---

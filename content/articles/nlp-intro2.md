@@ -2,10 +2,9 @@
 title: nlp-intro2
 description: 자연어 처리에 딥러닝은 왜 필요한가요?(더 자세한 통계 모델의 한계)
 slug: nlp-intro2
-img: not-yet-generated.png
-datetime: 2021.11.24.
-category: NLP
+category: Deep-Learning
 author: 정 찬
+img: artificial_neuron.png
 
 ---
 
@@ -68,7 +67,7 @@ author: 정 찬
 >
 > 뇌: 앗, 지금 발가락이 아프구나!
 
-![뉴런 이미지](./nlp-intro2/neuron.png)
+![뉴런 이미지](/nlp-intro2/neuron.png)
 
 [사진 출처](http://blog.atmaneuler.com/article/detail-10-17)
 
@@ -82,7 +81,7 @@ author: 정 찬
 
 그리고 발가락, 발, 종아리, ..., 뇌까지 전달되는 뉴런이 무수히 많았던 것처럼 여러 층을 만들어서 틀릴 가능성을 줄입니다. 
 
-![인공신경망 그림](./nlp-intro2/artificial_neuron.png)
+![인공신경망 그림](/nlp-intro2/artificial_neuron.png)
 
 [사진 출처](https://velog.io/@jhlsuper/%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5-%EC%9D%B8%EA%B3%B5-%EC%8B%A0%EA%B2%BD%EB%A7%9D%EB%8B%A8%EC%B8%B5-%ED%8D%BC%EC%85%89%ED%8A%B8%EB%A1%A0-%EA%B9%8C%EC%A7%80)
 

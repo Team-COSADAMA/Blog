@@ -3,9 +3,7 @@
 title: 한국어 형태소 분석기 비교 (지도학습기반) 
 description: 실전NLP_첫 번째 
 slug: 2021-practiceNLP-01
-img: not-yet-generated.png
-datetime: 2021. 10. 01.
-category: NLP
+category: Deep-Learning
 author: 이정윤
 
 ---

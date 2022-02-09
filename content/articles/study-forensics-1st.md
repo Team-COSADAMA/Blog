@@ -3,9 +3,7 @@
 title: 디지털 포렌식 1주차 스터디
 description: I. 디지털 포렌식 개념 제1장 디지털 포렌식
 slug: study-forensics-1st
-img: not-yet-generated.png
-datetime: 2021. 09. 29.
-category: 디지털 포렌식
+category: Data-Analysis
 author: 최예지
 
 ---

@@ -3,10 +3,9 @@
 title: 디지털 포렌식 2주차 스터디
 description: I. 디지털 포렌식 개념 제2장 디지털 데이터
 slug: study-forensics-2nd
-img: not-yet-generated.png
-datetime: 2021. 10. 31.
-category: 디지털 포렌식
+category: Data-Analysis
 author: 유혜정
+img: 4.png
 
 ---
 

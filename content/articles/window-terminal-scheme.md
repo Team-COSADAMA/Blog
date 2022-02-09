@@ -2,10 +2,9 @@
 title: 어여쁜 터미널 환경 구축하기
 description: Windows Terminal로 cmd, powershell을 예쁘게 꾸미는 방법을 공유합니다.
 slug: window-terminal-scheme
-img: not-yet-generated.png
-datetime: 2021. 09. 23.
-category: Tips
+category: General
 author: 정 찬
+img: windows_terminal_choice.png
 
 ---
 

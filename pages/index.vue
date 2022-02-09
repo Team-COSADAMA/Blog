@@ -43,10 +43,17 @@
                   <div class="article-inner flex border-b py-6 md:py-8 border-gray-200">
                     <div class="h-content hidden md:block">
                       <div class="md:h-52 md:w-72 square-box">
-                        <img class="profile h-full group-hover:scale-105 transition duration-300" src="~/assets/resources/open-py-on-colab.png" alt="">
+                        <!-- <img class="profile h-full group-hover:scale-105 transition duration-300" 
+                        src="~/assets/resources/open-py-on-colab.png" alt=""> -->
+                        <img v-if="`${article.img}` == undefined || `${article.img}` == null || `${article.img}` == 'null' || `${article.img}` == 'undefined'" class="profile h-full group-hover:scale-105 transition duration-300" 
+                        :src="require(`~/static/${article.category}.jpg`)" alt="">
+                        <!-- <img v-else class="profile h-full group-hover:scale-105 transition duration-300" 
+                        :src="require(`~/static/${article.category}.jpg`)" alt=""> -->
+                        <img v-else class="profile h-full group-hover:scale-105 transition duration-300" 
+                        :src="require(`~/static/${article.slug}/${article.img}`)" alt="">
                       </div>
                     </div>
-                    <div class="px-4 md:pl-8">
+                    <div class="px-4 md:pl-9">
                         <p class="mb-1.5 md:mb-3 text-sm md:text-base text-gray-400">{{article.category}}</p>
                         <h3 class="mb-1.5 md:mb-3 text-xl md:text-2xl font-semibold text-gray-600">{{ article.title }}</h3>
                         <p class="mb-1.5 md:mb-3 text-sm md:text-base text-gray-400 custom-text">{{article.description}}</p>

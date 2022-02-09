@@ -1,10 +1,11 @@
 ---
 
-title: deep-curri-scrapy3
+title: 스크래이피 톺아보기 3
 description: scrapy를 통한 웹크롤링을 다시 복습해보아요!
 slug: deep-curri-scrapy3
-category: scrapy 
+category: Data-Analysis
 author: 김윤진
+img: "3.블로그_4.png
 
 ---
 
@@ -79,7 +80,7 @@ Advanced WebCrawling 4주차 과제에서 요구하는 것은
 
 이었습니다. 
 
-<img src="/deep-curri-scrapy3/3.블로그_2.png" style="zoom:50%;" />
+![img](/deep-curri-scrapy3/3.블로그_2.png)
 
 현재 item.py에는 class안에 아무 것도 들어가 있지 않습니다. 그러면 필드 안에 저장할 것이 아무 것도 없다는 뜻입니다. 그래서 우리가 직접 어떤 것들을 스크래핑 할 것인지 하나씩 하나씩 item을 넣어주어야 합니다. 무엇을 저장할지 위의 조건들을 다 넣어주면 나중에 스크래핑 결과물에 7개의 항목이 예쁜 필드로 나오겠죠?
 
@@ -90,7 +91,7 @@ class GgBestItem(scrapy.Item):
 
 그럼 아이템을 하나하나 예쁘게 넣어보겠습니다.
 
-<img src="/deep-curri-scrapy3/3.블로그_3.png" alt="items.py 수정 후" style="zoom:50%;" />
+![img](/deep-curri-scrapy3/3.블로그_3.png)
 
 주석에 달아놓았듯이 각각 1번부터 7번까지 요구하는 필드를 작성했습니다. 
 
@@ -98,9 +99,7 @@ class GgBestItem(scrapy.Item):
 
 * 잠시 번외로 css와 XPath 문법에 대해서 미리 알아두고 가야해요! **.get() / .getall() / ::text** 정도만 사용할 거지만 미리 알아두면 좋으니까요 :)
 
-![](/deep-curri-scrapy3/CSS_Selector_vs._xpath.pdf)
-
-​																				[출처:AdvancedWebCrawlingWEEK1](https://www.notion.so/cosadama/Advanced-WebCrawling-WEEK1-903c0c6c93c340a6b63a9ff608b9b1cf)
+[AdvancedWebCrawlingWEEK1](https://www.notion.so/cosadama/Advanced-WebCrawling-WEEK1-903c0c6c93c340a6b63a9ff608b9b1cf)
 
 
 
@@ -311,7 +310,7 @@ class 이름은 우리가 설정한대로 'gg_best'를 반영해 **'GgBestSpider
 
 메인카테고리, 메인카테고리 웹링크를 얻기 위해서는 공통css 정보를 얻어와야 합니다. 어떻게 얻을 수 있는지 사진으로 볼까요?
 
-<img src="/deep-curri-scrapy3/3.블로그_4.png" style="zoom:50%;" />
+![img](/deep-curri-scrapy3/3.블로그_4.png)
 
 구글 크롬창에서 **control + f12**를 누르면 위의 사진처럼 오른쪽에 개발자의 복잡하고 이해할 수 없는 페이지가 뜹니다. 굳이 이해하지 않으셔도 돼요. 어떻게 페이지를 디자인했고 어떤 방식으로 페이지가 구성되었는지를 코드로 구현해 놓은 복잡한 식이라고 생각하시면 됩니다. 
 
@@ -319,7 +318,7 @@ class 이름은 우리가 설정한대로 'gg_best'를 반영해 **'GgBestSpider
 
 이때!!를 놓치지 않고 저희는 저 **박스부분**이 가지고 있는 css정보를 가져와야 합니다. 방법은 간단해요!
 
-<img src="/deep-curri-scrapy3/3.블로그_5.png" style="zoom:50%;" />
+![img](/deep-curri-scrapy3/3.블로그_5.png)
 
 박스 위에 마우스 커서를 둔 채로 **우클릭 -> copy -> copy selector**를 하시면 해당 메인카테고리(패션의류)에 대한 css 정보가 복사된 것입니다! 
 
@@ -329,7 +328,7 @@ css보다 XPath가 편하신 분들은 XPath를 사용하셔도 돼요!
 
 제가 직접 입력한 위의 python 코드의 **main_category = response.css('div.gbest-cate > ul.by-group > li > a::text').getall()**와는 조금 다르죠? 제가 입력한 코드는 **div.gbest-cate > ul.by-group > li > a**인데 무엇이 다른 걸까요?
 
-![](/deep-curri-scrapy3/3.블로그_6.png)
+![img](/deep-curri-scrapy3/3.블로그_6.png)
 
 오른쪽 창에 노란색으로 양 옆에 표시된 동그라미 세개 '...'가 각각 보이시나요? 저 동그라미들 안에 일자 배열로 css경로가 쭉 나열되어 있답니다. 동그라미 버튼을 가장 왼쪽으로 옮겨서 **진한 파란색**으로만 표시된 것들을 가져와 줄게요.
 
@@ -483,8 +482,3 @@ dis_price = dis_price.replace(',','').replace('원','냥')
 다음 포스팅에서 그 버튼을 누르는 법을 배워보겠습니다. (짱 쉬워요 :))
 
 ## 4. scrapy crawling 결과를 csv로 저장하기
-
-
-
-***
-

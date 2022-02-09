@@ -3,10 +3,9 @@
 title: Colab, Jupyter에서 matplotlib 한글 깨짐 해결하기
 description: matplotlib의 한글 깨짐 해결 방법은 Colab과 Jupyter 각각 차이가 있다. 이에 대해 알아보자.
 slug: hanguel-error-fix-matplotlib
-img: hanguel-error-fix-matplotlib.png
-datetime: 2021. 07. 08.
-category: Matplotlib
+category: Data-Analysis
 author: 신윤진
+img: "한글깨짐코드.png"
 
 ---
 

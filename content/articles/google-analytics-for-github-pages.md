@@ -2,8 +2,9 @@
 title: GitHub Pages로 배포한 웹사이트에 Google Analytics 연결하기
 description: 깃헙 페이지로 배포한 웹사이트에 구글 애널리틱스를 연결하는 법을 알아보자.
 slug: google-analytics-for-github-pages
-category: 웹개발
+category: Front-End
 author: 조용주
+img: 01.png
 ---
 
 글에 들어가기에 앞서, Google Analytics 트랙킹 ID 발급받는 법을 모른다면 [관련 포스팅](https://www.blog.cosadama.com/google-analytics-tracking-id)을 먼저 읽어주시길 바란다. 또한 본 포스팅은 Nuxt 프레임워크로 개발된 정적 웹사이트를 기준으로 한다.

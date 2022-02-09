@@ -99,4 +99,7 @@ code::before {
 code::after {
     content: none !important;
 }
+img{
+    margin: auto;
+}
 </style>

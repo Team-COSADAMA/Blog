@@ -2,10 +2,9 @@
 title: nlp-intro
 description: 자연어 처리의 기본 개념을 배워봅시다!
 slug: nlp-intro
-img: not-yet-generated.png
-datetime: 2021. 10. 01.
-category: NLP
+category: Deep-Learning
 author: 정 찬
+img: tf-idf_score.png
 
 ---
 
@@ -224,7 +223,7 @@ Tf-idf는 단어 간 빈도수에 따라 중요도를 계산해 고려하는 방
 
 tf-idf score 계산 수식은 다음과 같습니다.
 
-![tf-idf_score](./nlp-intro/tf-idf_score.png)
+![tf-idf_score](/nlp-intro/tf-idf_score.png)
 
 이때 N은 전체 document 개수를 의미합니다. df는 분모에 등장하기 때문에 inverse document frequency(idf)라고 합니다.
 

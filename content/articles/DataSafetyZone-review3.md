@@ -3,8 +3,9 @@
 title:  공공도서관은 개인들의 평등한 문화생활에 기여할 수 있는가?
 description:  <데이터 활용 아이디어 & 시각화 경진대회>에서 발표했던 내용을 간략하게 소개하겠습니다!
 slug: DataSafetyZone-review3
-category: Data Analysis
+category: Data-Analysis
 author: 김가인, 송혜민, 안지은
+img: pt31.png
 
 ---
 

@@ -1,12 +1,11 @@
 ---
 
-title: deep-curri-scrapy2
+title: 스크래이피 톺아보기 2
 description: scrapy를 통한 웹크롤링을 다시 복습해보아요!
 slug: deep-curri-scrapy2
-img: not-yet-generated.png
-datetime: 2021. 11. 22.
-category: scrapy 
+category: Data-Analysis
 author: 김윤진
+img: "2.블로그_2.png"
 
 ---
 

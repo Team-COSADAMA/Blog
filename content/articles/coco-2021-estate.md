@@ -3,9 +3,7 @@
 title: 지역 별 부동산 가격 형성 요인 분석
 description: 부동산 평균매매가 변동추이 및 다른 요인들과의 상관관계 분석
 slug: coco-2021-estate
-img: not-yet-generated.png
-datetime: 2021. 09. 09.
-category: Data Analysis
+category: Data-Analysis
 author: 강태영, 김후정, 신혜린, 윤한세
 
 ---

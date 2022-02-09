@@ -3,10 +3,9 @@
 title: 디지털 포렌식 3주차 스터디
 description: III. 디지털포렌식(비휘발성) 분석
 slug: study-forensics-5th
-img: not-yet-generated.png
-datetime: 2021. 11. 13.
-category: 디지털 포렌식
+category: Data-Analysis
 author: 유혜정
+img: "인수인계서.png"
 
 ---
 

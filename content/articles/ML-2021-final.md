@@ -3,10 +3,10 @@
 title: 머신러닝 독학 과정, 후기 및 미니 프로젝트
 description: cs109, 파이썬 머신러닝 완벽 가이드, 데이콘 심장 질환 예측 경진대회
 slug: ML-2021-final
-img: not-yet-generated.png
 datetime: 2021. 12. 21.
-category: ML
+category: Machine-Learning
 author: 나다경
+img: ml.png
 
 ---
 

@@ -2,9 +2,9 @@
 title: 3개월 간의 데이터 분석 프로젝트 정리하기   
 description: 교통•문화•통신 빅데이터 플랫폼 융합 분석 경진대회에 참가한 것과 구글 데이터 스튜디오를 활용한 프로젝트 내용을 정리한다.
 slug: bigdata-3rd    
-category: Data Analysis   
+category: Data-Analysis 
 author: 코코넛 팀   
-img: "1_timeline.PNG"
+img: 10_dashboard.png
 ---   
 
 

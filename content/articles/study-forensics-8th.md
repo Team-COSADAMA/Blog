@@ -3,7 +3,7 @@
 title: 디지털 포렌식 4주차 스터디(3)
 description: III. 디지털포렌식(비휘발성) 분석 2-3. 파일 시그니처 분석
 slug: study-forensics-8th
-category: 디지털 포렌식
+category: Data-Analysis
 author: 유혜정
 
 ---

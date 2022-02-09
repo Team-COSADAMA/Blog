@@ -1,14 +1,11 @@
 ---
 
-
-
 title: 데이터 활용 아이디어 & 시각화 경진대회 본선 발표!
 description: 데이터 활용 아이디어 & 시각화 경진대회 발표 심사 후기!
 slug: DataSafetyZone-review2
-category: Data Analysis
+category: Data-Analysis
 author: 김가인, 송혜민, 안지은
-
-
+img: 3.png
 
 ---
 
