@@ -4,6 +4,7 @@ description: 교통•문화•통신 빅데이터 플랫폼 융합 분석 경�
 slug: bigdata-3rd    
 category: Data Analysis   
 author: 코코넛 팀   
+img: "1_timeline.PNG"
 ---   
 
 
