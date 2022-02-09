@@ -58,6 +58,11 @@ export default {
             content: this.article.title
             },
             {
+            hid: 'og:description',
+            property: 'og:description',
+            content: this.article.description
+            },
+            {
             hid: 'og:image',
             property: 'og:image',
             // content: this.article.img
