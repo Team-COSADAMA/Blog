@@ -5,7 +5,7 @@
         <div class="z-0 bg-img section w-full py-48 sm:py-64 md:py-72 xl:py-80 inline-block" style="background-image: url(main4.jpg)"></div>
         <div class="z-20 absolute bottom-0 w-full h-full bg-gradient-to-t from-zinc-800"></div>
         <div class="z-30 absolute bottom-0 w-full">
-          <div class="max-w-7xl mx-auto pb-7 md:pb-14 px-7 md:px-6">
+          <div class="max-w-7xl mx-auto pb-6 md:pb-14 px-6 md:px-6">
             <div class="text-white font-semibold text-3xl md:text-4xl pb-2.5 md:pb-4">
                 나눔으로써 <br/> 함께하는 성장
             </div>
@@ -36,8 +36,8 @@
         <div class="text-gray-500 font-normal text-sm md:text-base">최근 공부 흔적입니다.</div>
     </div> -->
 
-        <div class="max-w-7xl grid grid-cols-1 md:grid-cols-1 mt-5 md:mt-6 mb-8 md:mb-14">
-            <div class="px-5 md:px-6 group" v-for="article of articles" :key="article">
+        <div class="max-w-7xl grid grid-cols-1 md:grid-cols-1 mt-4 md:mt-6 mb-8 md:mb-14">
+            <div class="px-6 md:px-6 group" v-for="article of articles" :key="article">
               <!-- <nuxt-link :to="{ name: 'slug', params: { slug: article.slug } }"> -->
               <nuxt-link :to="{path: `/articles/${article.slug}`}" replace>
                   <div class="article-inner flex border-b py-6 md:py-8 border-gray-200">
@@ -53,10 +53,10 @@
                         :src="require(`~/static/${article.slug}/${article.img}`)" alt="">
                       </div>
                     </div>
-                    <div class="px-4 md:pl-9">
+                    <div class="px-0 md:px-4 md:pl-9">
                         <p class="mb-1.5 md:mb-3 text-sm md:text-base text-gray-400">{{article.category}}</p>
-                        <h3 class="mb-1.5 md:mb-3 text-xl md:text-2xl font-semibold text-gray-600">{{ article.title }}</h3>
-                        <p class="mb-1.5 md:mb-3 text-sm md:text-base text-gray-400 custom-text">{{article.description}}</p>
+                        <h3 class="mb-1.5 md:mb-3 text-xl md:text-2xl font-semibold text-gray-600 keep-all">{{ article.title }}</h3>
+                        <p class="mb-1.5 md:mb-3 text-sm md:text-base text-gray-400 custom-text keep-all">{{article.description}}</p>
                         <p class="text-sm md:text-base text-gray-400">{{ formatDate(article.createdAt) }} · {{article.author}}</p>
                     </div>
                   </div>
