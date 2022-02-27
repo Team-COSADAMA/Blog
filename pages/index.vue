@@ -29,13 +29,6 @@
       <Search />
     </div> -->
 
-<!-- 글 목록 -->
-
-    <!-- <div class="px-5">
-        <div class="pt-8 md:pt-11 pb-4 text-xl md:text-2xl text-gray-600 font-semibold">최근 업로드</div>
-        <div class="text-gray-500 font-normal text-sm md:text-base">최근 공부 흔적입니다.</div>
-    </div> -->
-
         <div class="max-w-7xl grid grid-cols-1 md:grid-cols-1 mt-4 md:mt-6 mb-8 md:mb-14">
             <div class="px-6 md:px-6 group" v-for="article of articles" :key="article">
               <!-- <nuxt-link :to="{ name: 'slug', params: { slug: article.slug } }"> -->
