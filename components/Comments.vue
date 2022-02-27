@@ -17,9 +17,4 @@ export default {
 </script>
 
 <style>
-.utterances {
-  width: 100%;
-  margin: 0 !important;
-  max-width: 100%;
-}
 </style>
