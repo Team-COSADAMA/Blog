@@ -7,7 +7,7 @@
 
         <nuxt-content :document="article" class="prose max-w-5xl custom-text px-6 mx-auto"/>
 
-        <Comments class="w-full px-4 md:px-2" />
+        <Comments class="min-w-full px-4 md:px-2 mx-0" />
 
         <Prevnext :prev="prev" :next="next" />
 
