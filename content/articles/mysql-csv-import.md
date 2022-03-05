@@ -159,7 +159,7 @@ IGNORE 1 ROWS
 
 엇, 아까 csv 파일의 마지막 row 수와 같군요?  저는 csv파일을 TXT로 다른 이름으로 저장했는데요. CSV파일을 열면서 데이터가 소실되었나봅니다. 여러분들은 확장자를 csv에서 txt로 바꾸시면서 온전한 데이터를 db화 하시기 바랍니다:)
 
-![workbench_check](/mysql-csv-import/workbench_check.PNG)
+![workbench_check](/mysql-csv-import/workbench_check.png)
 
 
 
