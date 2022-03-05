@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full p-3 md:p-5 border-b md:border-b border-gray-200">
+    <div class="w-full p-3 md:px-5 md:py-4 border-b md:border-b border-gray-200">
         <div class="max-w-7xl mx-auto flex items-center justify-between">
 
             <div class="">
@@ -8,18 +8,8 @@
                 </nuxt-link>
             </div>
 
-            <div class="">
+            <!-- <div class="">
                 <ul class="flex space-x-1 text-base items-center">
-                    <!-- <li>
-                        <div class="py-1 px-2 rounded-lg hover:bg-gray-100">
-                            <nuxt-link to="socio" class="text-gray-500 text-sm">사회학</nuxt-link>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="py-1 px-2 rounded-lg hover:bg-gray-100">
-                            <nuxt-link to="others" class="text-gray-500 text-sm">그 외</nuxt-link>
-                        </div>
-                    </li> -->
                     <li>
                         <div class="group pl-4">
                             <a href="https://github.com/Team-COSADAMA" target="blank" class="">
@@ -28,35 +18,33 @@
                         </div>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
-            <!-- <div class="md:hidden flex content-center">
+            <div class="md:hidden flex content-center">
                 <button @click="drawer">
-                <svg 
-                    class="h-8 w-8 fill-current text-black"
-                    fill="none" stroke-linecap="round" 
-                    stroke-linejoin="round" stroke-width="2" 
-                    viewBox="0 0 24 24" stroke="currentColor">
-                    <path d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current text-zinc-600 w-auto md:block h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
                 </button>
             </div>
 
             <div class="hidden md:block">
-                <ul class="flex space-x-3 text-base">
+                <ul class="flex space-x-3 text-base items-center">
                     <li>
-                        <div class="py-2 px-3 rounded-lg hover:bg-gray-100">
-                            <nuxt-link to="/" class="text-gray-700">Posts</nuxt-link>
+                        <div class="py-2 px-2.5 rounded-lg hover:bg-gray-100 text-slate-500">
+                            <nuxt-link :to="{path: '/category'}">카테고리</nuxt-link>
                         </div>
                     </li>
                     <li>
-                        <div class="py-2 px-3 rounded-lg hover:bg-gray-100">
-                            <a href="http://www.cosadama.com" target="blank" class="text-gray-700">Projects</a>
+                        <div class="py-2 px-2.5 rounded-lg hover:bg-gray-100 text-slate-500">
+                            <nuxt-link :to="{path: '/members'}">멤버</nuxt-link>
                         </div>
                     </li>
                     <li>
-                        <div class="py-2 px-3 rounded-lg hover:bg-gray-100">
-                            <a href="https://github.com/Team-COSADAMA" target="blank" class="text-gray-700">GitHub</a>
+                        <div class="group pl-4">
+                            <a href="https://github.com/Team-COSADAMA" target="blank" class="">
+                                <GithubLogo />
+                            </a>
                         </div>
                     </li>
                 </ul>
@@ -80,7 +68,7 @@
                 <div class="close">
                 <button class="absolute top-0 right-0 mt-4 mr-4" @click=" isOpen = false">
                     <svg 
-                    class="w-6 h-6"
+                    class="w-6 h-6 fill-current text-zinc-600"
                     fill="none" stroke-linecap="round" 
                     stroke-linejoin="round" stroke-width="2"
                     viewBox="0 0 24 24" stroke="currentColor">
@@ -90,14 +78,15 @@
                 </div>
                 
                 <ul class="divide-y font-sans mt-4">
-                <li><nuxt-link to='/' @click="isOpen = false" class="my-4 inline-block text-gray-700">Posts</nuxt-link></li>
-                <li><a href="http://www.cosadama.com" target="blank" @click="isOpen = false" class="my-4 inline-block text-gray-700">Projects</a></li>
-                <li><a href="https://github.com/Team-COSADAMA" target="blank" @click="isOpen = false" class="my-4 inline-block text-gray-700">GitHub</a></li>
-                <li><a href="http://www.cosadama.com" target="blank" @click="isOpen = false" class="mt-6 inline-block"><FooterLogo/></a></li>
+                <li><nuxt-link to='/' @click="isOpen = false" class="my-4 px-2 inline-block text-gray-700">아티클</nuxt-link></li>
+                <li><nuxt-link :to="{path: 'category'}" @click="isOpen = false" class="my-4 px-2 inline-block text-gray-700">카테고리</nuxt-link></li>
+                <li><nuxt-link :to="{path: 'members'}" @click="isOpen = false" class="my-4 px-2 inline-block text-gray-700">멤버</nuxt-link></li>
+                <li><a href="https://github.com/Team-COSADAMA" target="blank" @click="isOpen = false" class="my-4 px-2 inline-block text-gray-700">깃헙</a></li>
+                <li><a href="http://www.cosadama.com" target="blank" @click="isOpen = false" class="mt-8 inline-block flex justify-center"><FooterLogo/></a></li>
                 </ul>
-                <p href="#" @click="isOpen = false" class="my-4 inline-block text-sm font-normal text-gray-500">© 2021 COSADAMA, <br/> All Rights Reserved.</p>
+                <div @click="isOpen = false" class="pt-4 my-4 inline-block text-xs font-normal text-gray-500 text-center flex justify-center">© 2020 COSADAMA, <br/> All Rights Reserved.</div>
 
-            </aside> -->
+            </aside>
 
         </div>
     </div>

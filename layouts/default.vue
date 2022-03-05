@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Warning />
+    <!-- <Warning /> -->
     <Header />
     <Nuxt />
     <Footer />

@@ -1,7 +1,7 @@
 <template>
     <div class="related max-w-5xl mx-auto py-10 md:py-16">
 
-        <p class="text-base md:text-lg text-gray-400 text-center mb-2">{{article.category}}</p>
+        <nuxt-link :to='`/category/${article.category}`' class="block mx-auto hover:underline text-base md:text-lg text-gray-400 text-center mb-2">{{article.category}}</nuxt-link>
         <h1 class="custom-text leading-snug md:leading-normal px-5 md:px-0 mb-2 text-2xl md:text-4xl text-center font-semibold text-gray-700">{{article.title}}</h1>
         <p class="text-base md:text-lg text-gray-500 text-center mb-6 md:mb-10">{{formatDate(article.createdAt)}} · by {{article.author}}</p>
 

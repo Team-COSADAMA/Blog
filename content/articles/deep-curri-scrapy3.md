@@ -5,7 +5,7 @@ description: scrapy를 통한 웹크롤링을 다시 복습해보아요!
 slug: deep-curri-scrapy3
 category: Data-Analysis
 author: 김윤진
-img: "3.블로그_4.png
+img: "3.블로그_4.png"
 
 ---
 
