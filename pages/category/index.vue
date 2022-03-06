@@ -16,7 +16,7 @@
     </div>
 
     <div class="max-w-7xl mx-auto pt-9 md:pt-16 pb-12 md:pb-24 px-5">
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-x-6 gap-y-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-x-6 gap-y-2 md:gap-y-5">
         <div v-for='category of categories' :key="category">
             <nuxt-link :to='`/category/${category.slug}`'>
             <div class="group relative">
