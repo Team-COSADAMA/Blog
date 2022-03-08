@@ -48,13 +48,14 @@ export default {
         const category = await $content('category', params.slug)
         .fetch();
 
-        const categoryTitle = category.slug
+        // const categoryTitle = category.slug
 
-        const articles = await $content('articles', params.id)
-        .where({category: categoryTitle})
+        const articles = await $content('articles')
+        // .where({category: categoryTitle})
+        .where({category: `${category.slug}`})
         .fetch();
 
-        return { category, articles, categoryTitle }
+        return { category, articles }
     },
     methods: {
         formatDate(date) {
