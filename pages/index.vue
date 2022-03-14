@@ -104,19 +104,6 @@ export default {
         },
   },
 
-  // async asyncData({ $content, params }) {
-  //   const page = ref(0);
-  //   const articles = await $content('blog', params.slug)
-  //     .sortBy('createdAt', 'desc')
-  //     .limit(10)
-  //     .fetch();
-  //   return {
-  //     articles
-  //   }
-  // },
-
-
-
 }
 </script>
 
