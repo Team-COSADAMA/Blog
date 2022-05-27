@@ -35,7 +35,7 @@
                         <p class="mb-1.5 md:mb-3 text-sm md:text-base text-gray-400">{{article.category}}</p>
                         <h3 class="mb-1.5 md:mb-3 text-xl md:text-2xl font-semibold text-gray-600 keep-all">{{ article.title }}</h3>
                         <p class="mb-1.5 md:mb-3 text-sm md:text-base text-gray-400 custom-text keep-all">{{article.description}}</p>
-                        <p class="text-sm md:text-base text-gray-400">{{ formatDate(article.createdAt) }} · {{article.author}}</p>
+                        <p class="text-sm md:text-base text-gray-400">{{article.author}}</p>
                     </div>
                   </div>
               </nuxt-link>
