@@ -20,10 +20,10 @@
         <div v-for='category of categories' :key="category">
             <nuxt-link :to='`/category/${category.slug}`'>
             <div class="group relative">
-                <div class="lead-box rounded-lg h-52 sm:h-60 md:h-72 mb-5 bg-slate-500 bg-img group-hover:scale-105 transition duration-300" :style="{ backgroundImage: `url(/${category.img})` }">
+                <div class="lead-box rounded-lg h-52 sm:h-60 md:h-72 mb-5 bg-slate-500 bg-img" :style="{ backgroundImage: `url(/${category.img})` }">
                 <div class="absolute bottom-0 w-full h-full bg-gradient-to-t from-zinc-600 rounded-lg"></div>
                 <div class="absolute bottom-0 w-full py-6 px-6">
-                    <div class="text-white text-2xl font-medium pb-2">{{category.slug}}</div>
+                    <div class="text-white text-2xl font-medium pb-2 group-hover:underline">{{category.slug}}</div>
                     <div class="text-slate-300 text-sm keep-all">{{category.description}}</div>
                 </div>
                 </div>

@@ -68,7 +68,7 @@ export default {
   data() {
     return {
       page: 0,
-      limit: 10,
+      limit: 6,
       articles: [],
     };
   },
