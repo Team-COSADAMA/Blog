@@ -38,7 +38,7 @@ img: linear_regression.png
 
 ![Colored_neural_network](/deep-learning-from-scratch2-1/Colored_neural_network.png)
 
-
+ 
 
 화살표에는 **가중치weight**가 존재해 기존 뉴런에 활성화함수h()를 적용한 값이 다음 뉴런의 값이 됩니다. 이때 이전 뉴런의 값에 영향을 받지 않는 편향bias가 더해집니다. 
 
