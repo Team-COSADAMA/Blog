@@ -16,6 +16,15 @@
         "test",
         "bug"
       ]
+    },
+    {
+      "login": "JeongYunLee",
+      "name": "JeongYun Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68316386?v=4",
+      "profile": "https://blog.naver.com/cathx618",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
