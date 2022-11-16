@@ -25,6 +25,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "chanstouch",
+      "name": "Chan Jeong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65523805?v=4",
+      "profile": "https://github.com/chanstouch",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
